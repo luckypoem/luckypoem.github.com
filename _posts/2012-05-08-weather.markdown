@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: ����
+title: weather
 category: misc
 ---
-�����Ǹ���������
+Â½Ã±ÃÃ¬ÃÃÂ¸Ã¶ÂºÃÃÃ¬ÃÃ¸Â¡Â£
