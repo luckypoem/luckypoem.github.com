@@ -1,1 +1,6 @@
+---
+layout: post
+title: 天气
+category: misc
+---
 今天是个好天气。
