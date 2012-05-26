@@ -1,6 +1,0 @@
-﻿---
-layout: post
-title: weather
-category: misc
----
-Â½Ã±ÃÃ¬ÃÃÂ¸Ã¶ÂºÃÃÃ¬ÃÃ¸Â¡Â£
