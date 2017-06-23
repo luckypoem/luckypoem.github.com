@@ -1,6 +1,6 @@
 ---
 layout: post
-title: songs
+title: 歌曲
 category: music
 ---
 

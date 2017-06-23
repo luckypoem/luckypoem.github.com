@@ -1,5 +1,5 @@
 markdown: rdiscount
-pygments: true
+highlighter: true
 permalink: pretty
 url: http://benediktmeurer.de
 title: Benedikt Meurer
@@ -8,6 +8,8 @@ author: Benedikt Meurer
 atom: http://feeds.feedburner.com/benediktmeurer
 
 paginate: 5
+
+plugins: [jekyll-paginate]
 
 exclude:
   - Rakefile
