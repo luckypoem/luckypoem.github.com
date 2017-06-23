@@ -1,6 +1,6 @@
 ---
 layout: post
-title: chinese economy
+title: 稀奇古怪的中国经济
 category: misc
 ---
 (北京时间2008年7月04日 来稿)
