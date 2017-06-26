@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>
+    Benedikt Meurer &raquo; Home
+  </title>
+  
+  <!-- Site Author -->
+  <meta name="author" content="Benedikt Meurer" />
+  
+  <!-- Site Description -->
+  <meta name="description" content="Personal website of Benedikt Meurer." />
+
+  <!-- Site Viewport -->
+  <meta name="viewport" content="user-scalable=no,width=device-width" />
+
+  <!-- Google Site Verification -->
+  <meta name="google-site-verification" content="1gkRIROhZsIi5eq-oNYG1R73thPYUmsb7IIQpDpBiB0" />
+
+  <!-- Atom RSS Feed -->
+  <link href="http://feeds.feedburner.com/benediktmeurer" rel="alternate" title="Benedikt Meurer" type="application/atom+xml" />
+
+  <!-- Blog CSS -->
+  <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Yanone+Kaffeesatz" media="projection, screen" rel="stylesheet" type="text/css" />
+  <link href="/css/reset.css" media="projection,screen" rel="stylesheet" type="text/css" /> 
+  <link href="/css/screen.css" media="projection,screen" rel="stylesheet" type="text/css" /> 
+  <link href="/css/custom.css" media="all" rel="stylesheet" type="text/css" />
+
+  <!-- Syntax Highlighting CSS -->
+  <link href="/css/syntax.css" rel="stylesheet" type="text/css" />
+
+  <!-- Fav Icon -->
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
+
+  <!-- jQuery -->
+  <script src="/js/jquery.min.js" type="text/javascript"></script>
+
+  <!-- socialshareprivacy jQuery Plugin -->
+  <!--
+  socialshareprivacy jQuery Plugin v1.2
+
+  URL: http://www.heise.de/extras/socialshareprivacy
+-->
+<script src="/js/jquery.socialshareprivacy.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+  jQuery(document).ready(function($){
+    if($('#socialshareprivacy').length > 0){
+      $('#socialshareprivacy').socialSharePrivacy({
+        services : {
+          facebook : {
+              'perma_option': 'off',
+              'status' : 'on',
+              'language' : 'en',
+              'dummy_img' : '/images/socialshareprivacy_facebook.png',
+              'txt_fb_off' : 'not connected to Facebook',
+              'txt_fb_on' : 'connected to Facebook',
+              'txt_info' : '2 clicks for better data protection: Only when you click here, the button is active and you can send your recommendation on the selected social network. Even when you only enable it, data will be transferred to third parties - see <em>i</em> (German).',
+          },
+          twitter : {
+              'perma_option': 'off',
+              'status' : 'on',
+              'language' : 'en',
+              'dummy_img' : '/images/socialshareprivacy_twitter.png',
+              'txt_twitter_off' : 'not connected to Twitter',
+              'txt_twitter_on' : 'connected to Twitter',
+              'txt_info' : '2 clicks for better data protection: Only when you click here, the button is active and you can send your recommendation on the selected social network. Even when you only enable it, data will be transferred to third parties - see <em>i</em> (German).',
+          },
+          gplus : {
+              'perma_option': 'off',
+              'status' : 'on',
+              'language' : 'en',
+              'dummy_img' : '/images/socialshareprivacy_gplus.png',
+              'txt_gplus_off' : 'not connected to Google+',
+              'txt_gplus_on' : 'connected to Google+',
+              'txt_info' : '2 clicks for better data protection: Only when you click here, the button is active and you can send your recommendation on the selected social network. Even when you only enable it, data will be transferred to third parties - see <em>i</em> (German).',
+          }
+        },
+        'cookie_domain' : 'benediktmeurer.de',
+        'settings_perma' : 'Agree to activate the social buttons permanently',
+        'css_path' : '/css/socialshareprivacy.css',
+        'txt_help' : 'When you activate these fields by clicking, information on Facebook, Twitter and Google are transferred to the United States and may also be stored there. To learn more, click on the <em>i</em> (German).',
+      });
+    }
+  });
+</script>
+
+
+  <!--[if lt IE 8]>
+    <link type="text/css" rel="stylesheet" media="projection,screen" href="/css/ie.css" />
+  <![endif]--> 
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="container">
+    <header class="span-21 last" id="header">
+      <h1><a href="/" rel="home bookmark">Benedikt Meurer</a></h1>
+    </header>
+
+    <div class="span-16" id="content">
+      
+  <article class="post">
+    <h3><a href="/2011/05/10/a-step-indexed-semantic-model-of-types-for-the-call-by-name-lambda-calculus/" rel="bookmark permalink" title="Permanent link to this post">A Step-indexed Semantic Model of Types for the Call-by-Name Lambda Calculus</a></h3>
+
+    <p>Step-indexed semantic models of types were proposed as an alternative to purely syntactic safety proofs using subject-reduction. Building upon the work by Appel and others, we introduce a generalized step-indexed model for the call-by-name lambda calculus. We also show how to prove type safety of general recursion in our call-by-name model.</p>
+
+<p><a href="http://arxiv.org/abs/1105.1985">http://arxiv.org/abs/1105.1985</a></p>
+
+
+    <div class="meta">
+      <div class="published">
+        Published: 2011-05-10
+        &mdash;
+        <a href="/2011/05/10/a-step-indexed-semantic-model-of-types-for-the-call-by-name-lambda-calculus/#disqus_thread" title="Comments">Comments</a>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+  </article>
+
+  <article class="post">
+    <h3><a href="/2010/11/30/ocamljit2-vs-ocamljit/" rel="bookmark permalink" title="Permanent link to this post">OCamlJIT2 vs. OCamlJIT</a></h3>
+
+    <p>I did some final work on <a href="/2010/11/16/ocamljit-20">OCamlJIT2</a>, and compared the result to OCamlJIT. The performance measures are presented in the following tech report (skip straight to section 4 for the performance results):</p>
+
+<p><a href="http://arxiv.org/abs/1011.6223">http://arxiv.org/abs/1011.6223</a></p>
+
+<p>In short: Performance measured on a P4 "Northwood" (no long mode, plain x86) 2.4GHz. OCamlJIT2 beats OCamlJIT by a factor of 1.1 to 2.0 in every benchmark, and - rather surprising - was even able to beat <code>ocamlopt</code> in the number crunching benchmark (probably an issue with the x86 backend of <code>ocamlopt</code>).</p>
+
+<p>As mentioned by Xavier Leroy and others previously, we probably went as far as we could go in the direction of JITting the byte-code virtual machine, while preserving its general stack-based nature and instruction set. Moving even further means translating the byte-code to some intermediate form suitable for use with standard compilation techniques; but as we saw earlier, in an LLVM-based prototype, the compilation overhead increases dramatically and the benefit of JIT compilation vanishes.</p>
+
+<p>Therefore, as suggested earlier, I'll try to get my hands on the native top-level now (already contacted Alain for the emitter code). Additionally, the linear scan register allocation will be implemented by a student as part of his diploma thesis.</p>
+
+<h3>Update</h3>
+
+<p>See the <a href="http://caml.inria.fr/pub/ml-archives/caml-list/2010/11/7363093c6ecec4e7fea18ccdfcf3366b.en.html">discussion</a> on the <a href="http://caml.inria.fr/pub/ml-archives/caml-list/index.en.html">Caml mailing list</a>.</p>
+
+
+    <div class="meta">
+      <div class="published">
+        Published: 2010-11-30
+        &mdash;
+        <a href="/2010/11/30/ocamljit2-vs-ocamljit/#disqus_thread" title="Comments">Comments</a>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+  </article>
+
+  <article class="post">
+    <h3><a href="/2010/11/16/ocamljit-20/" rel="bookmark permalink" title="Permanent link to this post">OCamlJIT 2.0</a></h3>
+
+    <p>OCamlJit 2.0 is a new Just-In-Time engine for Objective Caml 3.12.0 on desktop processors
+(x86/x86-64). It translates the OCaml byte-code used by the interpreter (<code>ocamlrun</code> and <code>ocaml</code>)
+to x86/x86-64 native code on-demand and runs the generated native code instead of interpreting
+the byte-code. It is designed to run with minimal compilation overhead (translating only what
+is being executed, avoiding costly code generation and optimization techniques), while being
+100% compatible with the byte-code runtime (including serialization and hashing of closures,
+etc.).</p>
+
+<p>OCamlJit 2.0 was specifically designed for desktop processors and is not really portable to
+anything else in its current shape, because the target audience are people using the interactive
+top-level and the byte-code interpreter for rapid prototyping/development (which is unlikely to
+happen on anything else but x86/x86-64). The implementation currently requires a system that
+adheres to the SysV ABI, which includes Linux, BSD, OS X, but excludes Win32/Win64
+(patches/ideas are welcome). It was tested on Linux/x86 (Debian), Linux/amd64 (CentOS) and Mac
+OS X 10.6 (64bit). The x86 implementation requires SSE2 capable processors (otherwise it falls
+back to the byte-code interpreter), so it won't speedup your OCaml programs running on
+486 CPUs. :-)</p>
+
+<p>OCamlJit 2.0 runs most benchmarks at 2-6 times faster than the byte-code interpreter. The
+interactive top-level benefits twice when used with the JIT engine:</p>
+
+<ol>
+<li>the compiler stages are JIT compiled and</li>
+<li>the generated byte-code is JIT compiled.</li>
+</ol>
+
+
+<p>A tech report describing a slightly earlier prototype and including performance measures of
+OCamlJit 2.0 on Mac OS X (64bit) is available at:</p>
+
+<p><a href="http://arxiv.org/abs/1011.1783">http://arxiv.org/abs/1011.1783</a></p>
+
+<p>The source code is available from the Git repository (master branch) at:</p>
+
+<ul>
+<li><a href="http://gitorious.org/ocamljit2/ocamljit2">http://gitorious.org/ocamljit2/ocamljit2</a></li>
+<li><a href="http://github.com/bmeurer/ocamljit2">http://github.com/bmeurer/ocamljit2</a></li>
+</ul>
+
+
+<p>Installation is similar to installation of Objective Caml, just run</p>
+
+<p><figure class="highlight"><pre><code class="language-console" data-lang="console">$ ./configure -prefix /path/to/ocamljit2 [options]</code></pre></figure></p>
+
+<p>followed by</p>
+
+<p><figure class="highlight"><pre><code class="language-console" data-lang="console">$ make world opt
+$ make install</code></pre></figure></p>
+
+<p>This will install a fully working Objective Caml 3.12.0 to <code>/path/to/ocamljit2</code>, where
+<code>/path/to/ocamljit2/bin/ocamlrun</code> and <code>/path/to/ocamljit2/lib/libcamlrun_shared.so</code> include
+the JIT engine in addition to the byte-code interpreter (fallback to the byte-code interpreter
+is necessary for debugging with <code>ocamldebug</code>). The <code>configure</code> script prints a line indicating
+whether the JIT engine is enabled or not (if not, it'll be just a regular OCaml 3.12
+installation).</p>
+
+<h3>Update</h3>
+
+<p>See the <a href="http://caml.inria.fr/pub/ml-archives/caml-list/2010/11/7d46cc65289d9b9def4f7ff4e2e6258a.en.html">discussion</a> on the <a href="http://caml.inria.fr/pub/ml-archives/caml-list/index.en.html">Caml mailing list</a>, and the more <a href="/2010/11/30/ocamljit2-vs-ocamljit">recent work</a> on OCamlJIT2.</p>
+
+
+    <div class="meta">
+      <div class="published">
+        Published: 2010-11-16
+        &mdash;
+        <a href="/2010/11/16/ocamljit-20/#disqus_thread" title="Comments">Comments</a>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+  </article>
+
+  <article class="post">
+    <h3><a href="/2009/11/23/git-hooks/" rel="bookmark permalink" title="Permanent link to this post">git-hooks - Generic Git hooks</a></h3>
+
+    <p><a href="http://github.com/bmeurer/git-hooks">Git Hooks</a> provides a simple mechanism to manage hooks
+for several <a href="http://git-scm.com">Git</a> repositories in a unified and simple way. It allows you
+to install hook scripts in a central location and use them for your Git repositories.</p>
+
+<h2>Installation</h2>
+
+<p>You need <a href="http://www.cmake.org">CMake</a> and <a href="http://gcc.gnu.org">GCC</a> in order to build and
+install git-hooks. You will also need to have <a href="http://git-scm.com">Git</a> and
+<a href="http://www.perl.org">Perl</a> installed for the hooks to work properly.  To build git-hooks run</p>
+
+<p><figure class="highlight"><pre><code class="language-console" data-lang="console">$ cmake /path/to/git-hooks
+$ make</code></pre></figure></p>
+
+<p>in a new directory (preferably, tho you may also run it from the source
+directory). Then, use</p>
+
+<p><figure class="highlight"><pre><code class="language-console" data-lang="console">$ make install</code></pre></figure></p>
+
+<p>to install git-hooks. This will install git-hooks to <code>/usr/local</code>. You can
+use ccmake to change the installation prefix. Below, we will assume that you installed
+git-hooks to <code>/usr/local</code>.</p>
+
+<h2>Repository setup</h2>
+
+<p>To setup a repository using git-hooks, just use the repository template that ships with
+git-hooks.</p>
+
+<p><figure class="highlight"><pre><code class="language-console" data-lang="console">$ mkdir myrepo.git
+$ cd myrepo.git
+$ git --bare init --template=/usr/local/share/git-hooks/template ...</code></pre></figure></p>
+
+<p>This will setup the new repository <code>myrepo.git</code> with git-hooks. Check the
+sample config file that will be created for <code>myrepo.git</code>.</p>
+
+<h2>Repository migration</h2>
+
+<p>To migrate an existing repository to use git-hooks, you should first backup
+your existing hook scripts. Then replace the hooks with the ones from
+<code>/usr/local/share/git-hooks/template/hooks</code>. Afterwards, you should migrate
+your previous hook scripts to global hook scripts used by git-hooks.</p>
+
+<h2>Configuration</h2>
+
+<p>The git-hooks package includes several useful hooks, which can be configured
+to your needs using git config settings in your repository (or even global
+settings from <code>/etc/gitconfig</code>). The
+<code>/usr/local/share/git-hooks/template/config</code> file provides a sample
+configuration file.</p>
+
+<p>Please see the hook scripts in <code>/usr/local/share/git-hooks/*.d/</code> for the
+various supported config settings.</p>
+
+
+    <div class="meta">
+      <div class="published">
+        Published: 2009-11-23
+        &mdash;
+        <a href="/2009/11/23/git-hooks/#disqus_thread" title="Comments">Comments</a>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+  </article>
+
+  <article class="post">
+    <h3><a href="/2009/11/07/gitweb-and-http-transport-for-public-repositories/" rel="bookmark permalink" title="Permanent link to this post">Gitweb and HTTP transport for public repositories</a></h3>
+
+    <p>It took me some time to figure out how to get
+<a href="https://git.wiki.kernel.org/index.php/Gitweb">gitweb</a> and (readonly) HTTP
+transport working for public Git repositories using the same URL. So here's my
+Apache 2 configuration, it may save you some time. The configuration assumes
+that your Git repositories are located under <code>/srv/git</code> and the
+gitweb files are installed in <code>/usr/share/gitweb</code> with the
+configuration file in <code>/etc/gitweb.conf</code>.</p>
+
+<p><figure class="highlight"><pre><code class="language-apache" data-lang="apache"># Dumb transport clone URLs for public repositories
+AliasMatch ^/git(/.<em>.git)/HEAD$ /srv/git/$1/HEAD
+AliasMatch ^/git(/.</em>.git)/info(/.<em>)? /srv/git/$1/info$2
+AliasMatch ^/git(/.</em>.git)/objects(/.<em>)? /srv/git/$1/objects$2
+AliasMatch ^/git(/.</em>.git)/refs(/.<em>)? /srv/git/$1/refs$2
+&lt;Directory &quot;/srv/git/</em>.git&quot;&gt;
+        AllowOverride None
+        Options Indexes
+        &lt;Limit GET POST OPTIONS&gt;
+                Order allow,deny
+                Allow from all
+        &lt;/Limit&gt;
+        &lt;LimitExcept GET POST OPTIONS&gt;
+                Order deny,allow
+                Deny from all
+        &lt;/LimitExcept&gt;
+&lt;/Directory&gt;</p>
+
+<h1>gitweb user interface</h1>
+
+<p>Alias /git /usr/share/gitweb
+&lt;Directory /usr/share/gitweb&gt;
+        SetEnv GITWEB_CONFIG /etc/gitweb.conf
+        Options +ExecCGI
+        AddHandler cgi-script .cgi
+        DirectoryIndex gitweb.cgi</p>
+
+<pre><code>    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^.* /git/gitweb.cgi/$0 [L,PT]
+</code></pre>
+
+<p>&lt;/Directory&gt;</code></pre></figure></p>
+
+
+    <div class="meta">
+      <div class="published">
+        Published: 2009-11-07
+        &mdash;
+        <a href="/2009/11/07/gitweb-and-http-transport-for-public-repositories/#disqus_thread" title="Comments">Comments</a>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+  </article>
+
+
+<div class="paging">
+  
+    
+    <a href="/page6" class="newer"><h1>Newer Posts</h1></a>
+    
+  
+  
+  <a href="/page8" class="older"><h1>Older Posts</h1></a></li>
+  
+
+  <div class="clear"></div>
+</div>
+
+
+    </div>
+
+    <div class="span-5 last" id="sidebar">
+  <div class="sidebarbox">
+    <h4>Pages</h4>
+    <ul id="pages">
+      <li><a rel="bookmark" title="Home" href="/">Home</a></li>
+      <li><a rel="bookmark" title="Archive" href="/archive">Archive</a></li>
+      <li><a rel="bookmark" title="Projects" href="/projects">Projects</a></li>
+      <li><a rel="bookmark" title="publications" href="/publications">Publications</a></li>
+      <li><a rel="bookmark" title="About" href="/about">About</a></li>
+    </ul>
+  </div>
+
+  <div class="sidebarbox">
+    <h4>Subscribe</h4>
+    <ul>
+      <li><a title="RSS Feed" href="http://feeds.feedburner.com/benediktmeurer" class="icon-link" id="feed-link">RSS</a></li>
+    </ul>
+  </div>
+
+  <div class="sidebarbox">
+    <h4>Me Elsewhere</h4>
+    <ul>
+      <li><a rel="bookmark" title="GitHub" href="https://github.com/" class="icon-link" id="github-link">GitHub</a></li>
+      <li><a rel="bookmark" title="Twitter" href="http://twitter.com/" class="icon-link" id="twitter-link">Twitter</a></li>
+      <li><a rel="bookmark" title="Facebook" href="https://facebook.com/benedikt.meurer" class="icon-link" id="facebook-link">Facebook</a></li>
+	    <li><a rel="bookmark" title="LinkedIn" href="http://linkedin.com/in/benediktmeurer" class="icon-link" id="linkedin-link">LinkedIn</a></li>
+	    <li><a rel="bookmark" title="ohloh" href="http://www.ohloh.net/accounts/bmeurer" class="icon-link" id="ohloh-link">ohloh</a></li>
+    </ul>
+  </div>
+
+  <div class="sidebarbox">
+    <h4>Contact Me</h4>
+    <ul>
+      <li><a rel="bookmark" title="Email" href="" class="icon-link" id="gmail-link">Gmail</a></li>
+    </ul>
+  </div>
+</div>
+
+
+    <footer class="span-21 last" id="footer">
+  <p>
+    All content copyright &copy; <a href="/about">Benedikt Meurer</a>.
+    Written in mostly valid <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fbenediktmeurer.de%2F" title="Valid HTML5" rel="external" target="_blank">HTML5</a> and <a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fbenediktmeurer.de&amp;profile=css3&amp;usermedium=all&amp;warning=1" title="Valid CSS3" rel="external" target="_blank">CSS3</a>.
+  </p>
+  <p>
+    Powered by <a href="http://github.com/mojombo/jekyll" title="The Jekyll (static site generator) code repository"
+    rel="external" target="_blank">Jekyll</a>.
+  </p>
+</footer>
+
+
+  </div>
+  <script type="text/javascript">
+  //<![CDATA[
+  (function() {
+    var links = document.getElementsByTagName('a');
+    var query = '?';
+    for(var i = 0; i < links.length; i++) {
+      if(links[i].href.indexOf('#disqus_thread') >= 0) {
+        query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+      }
+    }
+    document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/benediktmeurer/get_num_replies.js' + query + '"></' + 'script>');
+  })();
+  //]]>
+</script>
+
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24476004-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>
+    Benedikt Meurer &raquo; Home
+  </title>
+  
+  <!-- Site Author -->
+  <meta name="author" content="Benedikt Meurer" />
+  
+  <!-- Site Description -->
+  <meta name="description" content="Personal website of Benedikt Meurer." />
+
+  <!-- Site Viewport -->
+  <meta name="viewport" content="user-scalable=no,width=device-width" />
+
+  <!-- Google Site Verification -->
+  <meta name="google-site-verification" content="1gkRIROhZsIi5eq-oNYG1R73thPYUmsb7IIQpDpBiB0" />
+
+  <!-- Atom RSS Feed -->
+  <link href="http://feeds.feedburner.com/benediktmeurer" rel="alternate" title="Benedikt Meurer" type="application/atom+xml" />
+
+  <!-- Blog CSS -->
+  <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Yanone+Kaffeesatz" media="projection, screen" rel="stylesheet" type="text/css" />
+  <link href="/css/reset.css" media="projection,screen" rel="stylesheet" type="text/css" /> 
+  <link href="/css/screen.css" media="projection,screen" rel="stylesheet" type="text/css" /> 
+  <link href="/css/custom.css" media="all" rel="stylesheet" type="text/css" />
+
+  <!-- Syntax Highlighting CSS -->
+  <link href="/css/syntax.css" rel="stylesheet" type="text/css" />
+
+  <!-- Fav Icon -->
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
+
+  <!-- jQuery -->
+  <script src="/js/jquery.min.js" type="text/javascript"></script>
+
+  <!-- socialshareprivacy jQuery Plugin -->
+  <!--
+  socialshareprivacy jQuery Plugin v1.2
+
+  URL: http://www.heise.de/extras/socialshareprivacy
+-->
+<script src="/js/jquery.socialshareprivacy.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+  jQuery(document).ready(function($){
+    if($('#socialshareprivacy').length > 0){
+      $('#socialshareprivacy').socialSharePrivacy({
+        services : {
+          facebook : {
+              'perma_option': 'off',
+              'status' : 'on',
+              'language' : 'en',
+              'dummy_img' : '/images/socialshareprivacy_facebook.png',
+              'txt_fb_off' : 'not connected to Facebook',
+              'txt_fb_on' : 'connected to Facebook',
+              'txt_info' : '2 clicks for better data protection: Only when you click here, the button is active and you can send your recommendation on the selected social network. Even when you only enable it, data will be transferred to third parties - see <em>i</em> (German).',
+          },
+          twitter : {
+              'perma_option': 'off',
+              'status' : 'on',
+              'language' : 'en',
+              'dummy_img' : '/images/socialshareprivacy_twitter.png',
+              'txt_twitter_off' : 'not connected to Twitter',
+              'txt_twitter_on' : 'connected to Twitter',
+              'txt_info' : '2 clicks for better data protection: Only when you click here, the button is active and you can send your recommendation on the selected social network. Even when you only enable it, data will be transferred to third parties - see <em>i</em> (German).',
+          },
+          gplus : {
+              'perma_option': 'off',
+              'status' : 'on',
+              'language' : 'en',
+              'dummy_img' : '/images/socialshareprivacy_gplus.png',
+              'txt_gplus_off' : 'not connected to Google+',
+              'txt_gplus_on' : 'connected to Google+',
+              'txt_info' : '2 clicks for better data protection: Only when you click here, the button is active and you can send your recommendation on the selected social network. Even when you only enable it, data will be transferred to third parties - see <em>i</em> (German).',
+          }
+        },
+        'cookie_domain' : 'benediktmeurer.de',
+        'settings_perma' : 'Agree to activate the social buttons permanently',
+        'css_path' : '/css/socialshareprivacy.css',
+        'txt_help' : 'When you activate these fields by clicking, information on Facebook, Twitter and Google are transferred to the United States and may also be stored there. To learn more, click on the <em>i</em> (German).',
+      });
+    }
+  });
+</script>
+
+
+  <!--[if lt IE 8]>
+    <link type="text/css" rel="stylesheet" media="projection,screen" href="/css/ie.css" />
+  <![endif]--> 
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="container">
+    <header class="span-21 last" id="header">
+      <h1><a href="/" rel="home bookmark">Benedikt Meurer</a></h1>
+    </header>
+
+    <div class="span-16" id="content">
+      
+  <article class="post">
+    <h3><a href="/2011/12/04/arm-linux-gnueabi-cross-compiler-for-osx/" rel="bookmark permalink" title="Permanent link to this post">arm-linux-gnueabi cross compiler for OS X</a></h3>
+
+    <p>I spent some time getting a decent cross compiler toolchain for <code>arm-linux-gnueabi</code> running on Mac OS X, including GNU binutils 2.22, gcc 4.6.2 and OCaml 3.12.1. The cross compiler toolchain targets ARM boards running Debian/armel squeeze or later.</p>
+
+<p>The stuff is available from my <a href="https://github.com/bmeurer/MacPorts">local MacPorts repository</a>. To get it working on your Mac, make sure to update to the latest MacPorts first, using:</p>
+
+<p><figure class="highlight"><pre><code class="language-console" data-lang="console">$ sudo port selfupdate
+$ sudo port upgrade outdated</code></pre></figure></p>
+
+<p>Continue by cloning my MacPorts repository and editing the MacPorts <code>sources.conf</code> file (as superuser):</p>
+
+<p><figure class="highlight"><pre><code class="language-console" data-lang="console">$ git clone git@github.com:bmeurer/MacPorts.git
+$ cd MacPorts/ports
+$ sudo vim /opt/local/etc/macports/sources.conf</code></pre></figure></p>
+
+<p>Add a new line to the file <em>before</em> the line with the <code>[default]</code> tag</p>
+
+<p><figure class="highlight"><pre><code class="language-console" data-lang="console">file:///path/to/MacPorts/ports [nosync]</code></pre></figure></p>
+
+<p>where <code>/path/to/MacPorts</code> is the path to the MacPorts repository clone. Once done, run</p>
+
+<p><figure class="highlight"><pre><code class="language-console" data-lang="console">$ portindex</code></pre></figure></p>
+
+<p>in the <code>MacPorts/ports</code> subdirectory to add the ports from my local MacPorts repository to the list of available ports (remember to rerun <code>portindex</code> everytime you pull from my repository). Now you can continue installing the cross compiler ports, using either</p>
+
+<p><figure class="highlight"><pre><code class="language-console" data-lang="console">$ sudo port install arm-linux-gnueabi-gcc</code></pre></figure></p>
+
+<p>to install just the binutils, gcc and the basic runtime, or</p>
+
+<p><figure class="highlight"><pre><code class="language-console" data-lang="console">$ sudo port install arm-linux-gnueabi-ocaml-compiler</code></pre></figure></p>
+
+<p>to also install the OCaml cross compiler and its runtime. Installing the toolchain will take some time depending on the available bandwidth and the overall speed of your machine.</p>
+
+<p>Once done, your new cross compiler will be ready in <code>/opt/local</code>, with its system root in <code>/opt/local/arm-linux-gnueabi/sysroot</code> and related tools in <code>/opt/local/bin</code>, prefixed with <code>arm-linux-gnueabi-</code>, i.e.</p>
+
+<p><figure class="highlight"><pre><code class="language-console" data-lang="console">$ arm-linux-gnueabi-as --version
+GNU assembler (MacPorts 2011/12/02) 2.22
+Copyright 2011 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or later.
+This program has absolutely no warranty.
+This assembler was configured for a target of `arm-linux-gnueabi&#39;.</p>
+
+<p>$ arm-linux-gnueabi-gcc --version
+arm-linux-gnueabi-gcc (MacPorts 2011/12/02) 4.6.2
+Copyright (C) 2011 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p>
+
+<p>$ arm-linux-gnueabi-ocamlopt -config
+version: 3.12.1
+standard_library_default: /opt/local/arm-linux-gnueabi/sysroot/usr/lib/ocaml
+standard_library: /opt/local/arm-linux-gnueabi/sysroot/usr/lib/ocaml
+standard_runtime: /opt/local/arm-linux-gnueabi/bin/ocamlrun
+ccomp_type: cc
+bytecomp_c_compiler: arm-linux-gnueabi-gcc -fno-defer-pop -Wall -D_FILE_OFFSET_BITS=64 -D_REENTRANT -fPIC
+bytecomp_c_libraries: -lm  -ldl -ltermcap -lpthread
+native_c_compiler: arm-linux-gnueabi-gcc -Wall -D_FILE_OFFSET_BITS=64 -D_REENTRANT
+native_c_libraries: -lm  -ldl
+native_pack_linker: arm-linux-gnueabi-ld -r  -o
+ranlib: arm-linux-gnueabi-ranlib
+cc_profile: -pg
+architecture: arm
+model: default
+system: linux
+asm: arm-linux-gnueabi-as
+ext_obj: .o
+ext_asm: .s
+ext_lib: .a
+ext_dll: .so
+os_type: Unix
+default_executable_name: a.out
+systhread_supported: true</code></pre></figure></p>
+
+<p>To help with cross compilation of OCaml projects using <code>ocamlfind</code>, the <code>arm-linux-gnueabi-ocaml-compiler</code> port also installs a custom <code>ocamlfind</code> configuration file <code>/opt/local/etc/arm-linux-gnueabi-ocamlfind.conf</code>, which you can use to utilize the cross compiler toolchain by setting the environment variable <code>OCAMLFIND_CONF</code> to point to this file.</p>
+
+
+    <div class="meta">
+      <div class="published">
+        Published: 2011-12-04
+        &mdash;
+        <a href="/2011/12/04/arm-linux-gnueabi-cross-compiler-for-osx/#disqus_thread" title="Comments">Comments</a>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+  </article>
+
+  <article class="post">
+    <h3><a href="/2011/10/16/red-black-trees-for-ocaml/" rel="bookmark permalink" title="Permanent link to this post">Red-Black Trees for OCaml</a></h3>
+
+    <p>I decided that it was about time to get used to <a href="http://oasis.forge.ocamlcore.org/">OASIS</a>, that <em>new</em> all-in-one build system generator for OCaml projects. So I started by getting it up and running using various <a href="https://github.com/bmeurer/MacPorts/">local MacPorts</a>. Once everything was up and running, I started to switch my implementation of <a href="https://github.com/bmeurer/ocaml-rbtrees/">Red-Black Trees for OCaml</a> to use OASIS instead of my custom <code>Makefile</code>-based approach. That went amazingly well, and so here's my first release, version 0.1.0, of <code>ocaml-rbtrees</code> featuring an OASIS-generated build system.</p>
+
+<p>Download: <a href="https://github.com/downloads/bmeurer/ocaml-rbtrees/ocaml-rbtrees-0.1.0.tar.gz">https://github.com/downloads/bmeurer/ocaml-rbtrees/ocaml-rbtrees-0.1.0.tar.gz</a></p>
+
+<p>Git repository: <a href="https://github.com/bmeurer/ocaml-rbtrees">https://github.com/bmeurer/ocaml-rbtrees</a></p>
+
+<p>For those of you using <a href="http://www.macports.org/">MacPorts</a> on Mac OS X, ocaml-rbtrees 0.1.0 is also available from my local <a href="https://github.com/bmeurer/MacPorts/">MacPorts Portfile repository</a> as <code>caml-rbtrees</code>.</p>
+
+
+    <div class="meta">
+      <div class="published">
+        Published: 2011-10-16
+        &mdash;
+        <a href="/2011/10/16/red-black-trees-for-ocaml/#disqus_thread" title="Comments">Comments</a>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+  </article>
+
+  <article class="post">
+    <h3><a href="/2011/10/06/towards-a-native-toplevel-for-the-ocaml-language/" rel="bookmark permalink" title="Permanent link to this post">Towards a native toplevel for the OCaml language</a></h3>
+
+    <p>This paper presents the current state of our work on an interactive toplevel for the OCaml language based on the optimizing native code compiler and runtime. Our native toplevel is up to 100 times faster than the default OCaml toplevel, which is based on the byte code compiler and interpreter. It uses Just-In-Time techniques to compile toplevel phrases to native code at runtime, and currently works with various Unix-like systems running on x86 or x86-64 processors.</p>
+
+<p><a href="http://arxiv.org/abs/1110.1029">http://arxiv.org/abs/1110.1029</a></p>
+
+
+    <div class="meta">
+      <div class="published">
+        Published: 2011-10-06
+        &mdash;
+        <a href="/2011/10/06/towards-a-native-toplevel-for-the-ocaml-language/#disqus_thread" title="Comments">Comments</a>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+  </article>
+
+  <article class="post">
+    <h3><a href="/2011/10/06/patent-evil/" rel="bookmark permalink" title="Permanent link to this post">Patent Evil</a></h3>
+
+    <p>How the Patent War is Stifling Innovation in Silicon Valley.</p>
+
+<p><a href="http://www.mbaonline.com/patents/"><img src="/images/2011/patent-evil.jpg" alt="Patent Evil" border="0" /></a></p>
+
+<p>Created by: <a href="http://www.mbaonline.com/">MBA Online</a></p>
+
+
+    <div class="meta">
+      <div class="published">
+        Published: 2011-10-06
+        &mdash;
+        <a href="/2011/10/06/patent-evil/#disqus_thread" title="Comments">Comments</a>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+  </article>
+
+  <article class="post">
+    <h3><a href="/2011/10/06/native-toplevel-test-release/" rel="bookmark permalink" title="Permanent link to this post">Native toplevel test release 3.12.1+ocamlnatjit2</a></h3>
+
+    <p>After several additional hours of testing and bugfixing it was time for another test release of our new OCaml native code toplevel <code>ocamlnat</code>. The test release includes a fully featured OCaml 3.12.1 distribution plus our new toplevel ocamlnat, which is <a href="/2011/09/14/ocamlnat-benchmark">up to 100 times faster</a> than the byte code toplevel. See the <a href="/ocaml-experimental">website</a> for installation instructions and additional information.</p>
+
+<p>Website: <a href="http://benediktmeurer.de/ocaml-experimental">http://benediktmeurer.de/ocaml-experimental</a></p>
+
+<p>Download: <a href="http://benediktmeurer.de/files/source/ocaml-3.12.1+ocamlnatjit2.tar.bz2">http://benediktmeurer.de/files/source/ocaml-3.12.1+ocamlnatjit2.tar.bz2</a></p>
+
+<p>Git repository: <a href="https://github.com/bmeurer/ocaml-experimental">https://github.com/bmeurer/ocaml-experimental</a></p>
+
+
+    <div class="meta">
+      <div class="published">
+        Published: 2011-10-06
+        &mdash;
+        <a href="/2011/10/06/native-toplevel-test-release/#disqus_thread" title="Comments">Comments</a>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+  </article>
+
+
+<div class="paging">
+  
+    
+    <a href="/" class="newer"><h1>Newer Posts</h1></a>
+    
+  
+  
+  <a href="/page3" class="older"><h1>Older Posts</h1></a></li>
+  
+
+  <div class="clear"></div>
+</div>
+
+
+    </div>
+
+    <div class="span-5 last" id="sidebar">
+  <div class="sidebarbox">
+    <h4>Pages</h4>
+    <ul id="pages">
+      <li><a rel="bookmark" title="Home" href="/">Home</a></li>
+      <li><a rel="bookmark" title="Archive" href="/archive">Archive</a></li>
+      <li><a rel="bookmark" title="Projects" href="/projects">Projects</a></li>
+      <li><a rel="bookmark" title="publications" href="/publications">Publications</a></li>
+      <li><a rel="bookmark" title="About" href="/about">About</a></li>
+    </ul>
+  </div>
+
+  <div class="sidebarbox">
+    <h4>Subscribe</h4>
+    <ul>
+      <li><a title="RSS Feed" href="http://feeds.feedburner.com/benediktmeurer" class="icon-link" id="feed-link">RSS</a></li>
+    </ul>
+  </div>
+
+  <div class="sidebarbox">
+    <h4>Me Elsewhere</h4>
+    <ul>
+      <li><a rel="bookmark" title="GitHub" href="https://github.com/" class="icon-link" id="github-link">GitHub</a></li>
+      <li><a rel="bookmark" title="Twitter" href="http://twitter.com/" class="icon-link" id="twitter-link">Twitter</a></li>
+      <li><a rel="bookmark" title="Facebook" href="https://facebook.com/benedikt.meurer" class="icon-link" id="facebook-link">Facebook</a></li>
+	    <li><a rel="bookmark" title="LinkedIn" href="http://linkedin.com/in/benediktmeurer" class="icon-link" id="linkedin-link">LinkedIn</a></li>
+	    <li><a rel="bookmark" title="ohloh" href="http://www.ohloh.net/accounts/bmeurer" class="icon-link" id="ohloh-link">ohloh</a></li>
+    </ul>
+  </div>
+
+  <div class="sidebarbox">
+    <h4>Contact Me</h4>
+    <ul>
+      <li><a rel="bookmark" title="Email" href="" class="icon-link" id="gmail-link">Gmail</a></li>
+    </ul>
+  </div>
+</div>
+
+
+    <footer class="span-21 last" id="footer">
+  <p>
+    All content copyright &copy; <a href="/about">Benedikt Meurer</a>.
+    Written in mostly valid <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fbenediktmeurer.de%2F" title="Valid HTML5" rel="external" target="_blank">HTML5</a> and <a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fbenediktmeurer.de&amp;profile=css3&amp;usermedium=all&amp;warning=1" title="Valid CSS3" rel="external" target="_blank">CSS3</a>.
+  </p>
+  <p>
+    Powered by <a href="http://github.com/mojombo/jekyll" title="The Jekyll (static site generator) code repository"
+    rel="external" target="_blank">Jekyll</a>.
+  </p>
+</footer>
+
+
+  </div>
+  <script type="text/javascript">
+  //<![CDATA[
+  (function() {
+    var links = document.getElementsByTagName('a');
+    var query = '?';
+    for(var i = 0; i < links.length; i++) {
+      if(links[i].href.indexOf('#disqus_thread') >= 0) {
+        query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+      }
+    }
+    document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/benediktmeurer/get_num_replies.js' + query + '"></' + 'script>');
+  })();
+  //]]>
+</script>
+
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24476004-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+
+</html>

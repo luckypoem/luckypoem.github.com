@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>git-utils</title>
+
+  <!-- Site Author -->
+  <meta name="author" content="Benedikt Meurer" />
+
+  <!-- Page Description -->
+  <meta name="description" content="Various git related utilities" />
+
+  <!-- Google Site Verification -->
+  <meta name="google-site-verification" content="1gkRIROhZsIi5eq-oNYG1R73thPYUmsb7IIQpDpBiB0" />
+
+  <!-- Syntax Highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+  <!-- CSS -->
+  <link href="/css/githubproject.css" rel="stylesheet" type="text/css" media="screen, projection" />
+
+  <!-- jQuery -->
+  <script src="/js/jquery.min.js" type="text/javascript"></script>
+
+  <!-- socialshareprivacy jQuery Plugin -->
+  <!--
+  socialshareprivacy jQuery Plugin v1.2
+
+  URL: http://www.heise.de/extras/socialshareprivacy
+-->
+<script src="/js/jquery.socialshareprivacy.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+  jQuery(document).ready(function($){
+    if($('#socialshareprivacy').length > 0){
+      $('#socialshareprivacy').socialSharePrivacy({
+        services : {
+          facebook : {
+              'perma_option': 'off',
+              'status' : 'on',
+              'language' : 'en',
+              'dummy_img' : '/images/socialshareprivacy_facebook.png',
+              'txt_fb_off' : 'not connected to Facebook',
+              'txt_fb_on' : 'connected to Facebook',
+              'txt_info' : '2 clicks for better data protection: Only when you click here, the button is active and you can send your recommendation on the selected social network. Even when you only enable it, data will be transferred to third parties - see <em>i</em> (German).',
+          },
+          twitter : {
+              'perma_option': 'off',
+              'status' : 'on',
+              'language' : 'en',
+              'dummy_img' : '/images/socialshareprivacy_twitter.png',
+              'txt_twitter_off' : 'not connected to Twitter',
+              'txt_twitter_on' : 'connected to Twitter',
+              'txt_info' : '2 clicks for better data protection: Only when you click here, the button is active and you can send your recommendation on the selected social network. Even when you only enable it, data will be transferred to third parties - see <em>i</em> (German).',
+          },
+          gplus : {
+              'perma_option': 'off',
+              'status' : 'on',
+              'language' : 'en',
+              'dummy_img' : '/images/socialshareprivacy_gplus.png',
+              'txt_gplus_off' : 'not connected to Google+',
+              'txt_gplus_on' : 'connected to Google+',
+              'txt_info' : '2 clicks for better data protection: Only when you click here, the button is active and you can send your recommendation on the selected social network. Even when you only enable it, data will be transferred to third parties - see <em>i</em> (German).',
+          }
+        },
+        'cookie_domain' : 'benediktmeurer.de',
+        'settings_perma' : 'Agree to activate the social buttons permanently',
+        'css_path' : '/css/socialshareprivacy.css',
+        'txt_help' : 'When you activate these fields by clicking, information on Facebook, Twitter and Google are transferred to the United States and may also be stored there. To learn more, click on the <em>i</em> (German).',
+      });
+    }
+  });
+</script>
+
+
+  <!--[if IE]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <a class="fork" href="http://github.com//git-utils"><img src="http://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub" /></a>
+
+  <div id="container">
+    <!--
+    <div class="download">
+      <a href="http://github.com//git-utils/zipball/master"><img src="http://github.com/images/modules/download/zip.png" width="90" /></a>
+      <a href="http://github.com//git-utils/tarball/master"><img src="http://github.com/images/modules/download/tar.png" width="90" /></a>
+    </div>
+    -->
+
+    <h1><a href="http://github.com//git-utils">git-utils</a></h1>
+
+    <h2>About</h2>
+
+<p>git-utils is a collection of simple utilities that made my <a href="http://git-scm.com">Git</a> life easier in some way or another. I tried to clean them up as much as necessary prior to putting here, so it should be easy to use for others as well.</p>
+
+<h2>Installation</h2>
+
+<p>You don't need anything special, just a working installation of <a href="http://git-scm.com">Git</a> and a UNIX system (tested with Mac OS X and Linux). To install the git-utils into <code>/usr/local</code> run</p>
+
+<p><figure class="highlight"><pre><code class="language-console" data-lang="console">$ sudo make install</code></pre></figure></p>
+
+<p>or just pick the scripts that you need and place them wherever you want.</p>
+
+<h2>Description</h2>
+
+<ul>
+<li><strong>git-copy</strong> Copy file from source path to target path and add the target path to the Git index.</li>
+<li><strong>git-push-all</strong> Invoke <code>git-push</code> for all configured remote repositories.</li>
+</ul>
+
+
+<h2>License</h2>
+
+<p>git-utils is licensed under the <a href="http://www.gnu.org/licenses/gpl-3.0.html">GNU GENERAL PUBLIC LICENSE Version 3</a>. See the <a href="http://github.com/bmeurer/git-utils/raw/master/LICENSE">LICENSE</a> file for details.</p>
+
+      
+    <h2>Source code</h2>
+
+    <p>
+      Available on GitHub:
+      <a href="http://github.com//git-utils">http://github.com//git-utils</a>
+    </p>
+
+    <p>
+      Download it in either <a href="http://github.com//git-utils/zipball/master">zip</a>
+      or <a href="http://github.com//git-utils/tarball/master">tar</a> formats.
+    </p>
+
+    <p>
+      Clone the project with <a href="http://git-scm.com">Git</a> by running:
+    </p>
+
+    <div class="highlight">
+      <pre><code class="console"><span class="gp">$</span> git clone git://github.com//git-utils.git</code></pre>
+    </div>
+
+    <p>
+      <a class="button" href="github-mac://openRepo/https://github.com//git-utils"> Clone in Mac</a>
+    </p>
+
+    <h2>Bug Reports</h2>
+
+    <p>
+      If you come across any problems, please create a <a
+      href="http://github.com//git-utils/issues">ticket</a>
+      and we will try to get it fixed as soon as possible.
+    </p>
+
+    <p>
+      <a class="button" href="http://github.com//git-utils/issues/new">Report a Bug</a>
+    </p>
+
+    <h2>Contributing</h2>
+
+    <p>
+      Once you have made your commits:
+    </p>
+
+    <ol>
+      <li><a href="http://help.github.com/fork-a-repo/">Fork</a> git-utils.</li>
+      <li>Create a topic branch - <tt>git checkout -b my_branch</tt></li>
+      <li>Push to your topic branch - <tt>git push origin my_branch</tt></li>
+      <li>Create a <a href="http://help.github.com/pull-requests/">Pull Request</a> from your topic branch.</li>
+      <li>That's it!</li>
+    </ol>
+
+    <p>
+      <a class="button" href="http://github.com//git-utils/fork">Fork git-utils</a>
+    </p>
+
+    <h2>Copyright</h2>
+
+    <p>
+      Copyright &copy; 2008-2011 Benedikt Meurer. See the
+      <a href="http://github.com//git-utils/raw/master/LICENSE">LICENSE</a>
+      file for details.
+    </p>
+      
+    <div class="footer">
+      <p>
+        Copyright &copy; 2017 Benedikt Meurer
+        &nbsp;|&nbsp;
+        <a href="http://benediktmeurer.de">http://benediktmeurer.de</a>
+        &nbsp;|&nbsp;
+        <a href="http://www.twitter.com/">@</a>
+      </p>
+
+      <div id="socialshareprivacy"></div>
+    </div>
+  </div>
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24476004-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+
+</html>

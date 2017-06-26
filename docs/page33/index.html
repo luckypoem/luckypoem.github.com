@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>
+    Benedikt Meurer &raquo; Home
+  </title>
+  
+  <!-- Site Author -->
+  <meta name="author" content="Benedikt Meurer" />
+  
+  <!-- Site Description -->
+  <meta name="description" content="Personal website of Benedikt Meurer." />
+
+  <!-- Site Viewport -->
+  <meta name="viewport" content="user-scalable=no,width=device-width" />
+
+  <!-- Google Site Verification -->
+  <meta name="google-site-verification" content="1gkRIROhZsIi5eq-oNYG1R73thPYUmsb7IIQpDpBiB0" />
+
+  <!-- Atom RSS Feed -->
+  <link href="http://feeds.feedburner.com/benediktmeurer" rel="alternate" title="Benedikt Meurer" type="application/atom+xml" />
+
+  <!-- Blog CSS -->
+  <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Yanone+Kaffeesatz" media="projection, screen" rel="stylesheet" type="text/css" />
+  <link href="/css/reset.css" media="projection,screen" rel="stylesheet" type="text/css" /> 
+  <link href="/css/screen.css" media="projection,screen" rel="stylesheet" type="text/css" /> 
+  <link href="/css/custom.css" media="all" rel="stylesheet" type="text/css" />
+
+  <!-- Syntax Highlighting CSS -->
+  <link href="/css/syntax.css" rel="stylesheet" type="text/css" />
+
+  <!-- Fav Icon -->
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
+
+  <!-- jQuery -->
+  <script src="/js/jquery.min.js" type="text/javascript"></script>
+
+  <!-- socialshareprivacy jQuery Plugin -->
+  <!--
+  socialshareprivacy jQuery Plugin v1.2
+
+  URL: http://www.heise.de/extras/socialshareprivacy
+-->
+<script src="/js/jquery.socialshareprivacy.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+  jQuery(document).ready(function($){
+    if($('#socialshareprivacy').length > 0){
+      $('#socialshareprivacy').socialSharePrivacy({
+        services : {
+          facebook : {
+              'perma_option': 'off',
+              'status' : 'on',
+              'language' : 'en',
+              'dummy_img' : '/images/socialshareprivacy_facebook.png',
+              'txt_fb_off' : 'not connected to Facebook',
+              'txt_fb_on' : 'connected to Facebook',
+              'txt_info' : '2 clicks for better data protection: Only when you click here, the button is active and you can send your recommendation on the selected social network. Even when you only enable it, data will be transferred to third parties - see <em>i</em> (German).',
+          },
+          twitter : {
+              'perma_option': 'off',
+              'status' : 'on',
+              'language' : 'en',
+              'dummy_img' : '/images/socialshareprivacy_twitter.png',
+              'txt_twitter_off' : 'not connected to Twitter',
+              'txt_twitter_on' : 'connected to Twitter',
+              'txt_info' : '2 clicks for better data protection: Only when you click here, the button is active and you can send your recommendation on the selected social network. Even when you only enable it, data will be transferred to third parties - see <em>i</em> (German).',
+          },
+          gplus : {
+              'perma_option': 'off',
+              'status' : 'on',
+              'language' : 'en',
+              'dummy_img' : '/images/socialshareprivacy_gplus.png',
+              'txt_gplus_off' : 'not connected to Google+',
+              'txt_gplus_on' : 'connected to Google+',
+              'txt_info' : '2 clicks for better data protection: Only when you click here, the button is active and you can send your recommendation on the selected social network. Even when you only enable it, data will be transferred to third parties - see <em>i</em> (German).',
+          }
+        },
+        'cookie_domain' : 'benediktmeurer.de',
+        'settings_perma' : 'Agree to activate the social buttons permanently',
+        'css_path' : '/css/socialshareprivacy.css',
+        'txt_help' : 'When you activate these fields by clicking, information on Facebook, Twitter and Google are transferred to the United States and may also be stored there. To learn more, click on the <em>i</em> (German).',
+      });
+    }
+  });
+</script>
+
+
+  <!--[if lt IE 8]>
+    <link type="text/css" rel="stylesheet" media="projection,screen" href="/css/ie.css" />
+  <![endif]--> 
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="container">
+    <header class="span-21 last" id="header">
+      <h1><a href="/" rel="home bookmark">Benedikt Meurer</a></h1>
+    </header>
+
+    <div class="span-16" id="content">
+      
+  <article class="post">
+    <h3><a href="/2003/01/30/netbsd-16-book/" rel="bookmark permalink" title="Permanent link to this post">NetBSD 1.6 book</a></h3>
+
+    <p>As mentioned on <a href="http://www.netbsd.org">www.netbsd.org</a> the german publisher C&amp;L
+has made available a <a href="http://www.cul.de/netbsd.html">book on NetBSD 1.6</a>. The book
+covers NetBSD installation (i386, macppc and others), user administration, updating
+the system, kernel tuning, configuring the <code>rc.d</code> startup system, package
+management using <code>pkg_install</code> and the <code>pkgsrc</code> tree, configuring the X window system
+and using NetBSD in a networked environment (IPv4/6, DNS, NFS/NIS, FTP, Samba and the like).</p>
+
+
+    <div class="meta">
+      <div class="published">
+        Published: 2003-01-30
+        &mdash;
+        <a href="/2003/01/30/netbsd-16-book/#disqus_thread" title="Comments">Comments</a>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+  </article>
+
+  <article class="post">
+    <h3><a href="/2002/11/27/introduction-to-netbsd-loadable-kernel-modules/" rel="bookmark permalink" title="Permanent link to this post">Introduction to NetBSD loadable kernel modules</a></h3>
+
+    <h2>Introduction</h2>
+
+<p>Loadable kernel modules (LKMs) are quite popular on most modern operating systems such as
+<a href="http://www.kernel.org">GNU/Linux</a>, <a href="http://www.freebsd.org">FreeBSD</a> and of course
+Microsoft Windows, just to name a few. They offer you the possibility to extend the kernel's
+functionality at runtime without recompiling or even rebooting the system. For example nearly
+every Linux device driver is available - or can be made available - as a loadable kernel module,
+that can be loaded at runtime to get support for a particular device (or even a pseudo-device).</p>
+
+<p>With <a href="http://www.netbsd.org">NetBSD</a>, LKMs are not that popular yet. At the time of this writing
+only a few drivers are available as loadable modules (mostly filesystem and compat drivers, and
+a few others such as the <code>linuxrtc</code> emulation). This might change in near future.</p>
+
+<p>The loadable kernel module interface was originally designed to be similar in functionality to the
+loadable kernel modules facility provided by SunOS. The <a href="http://netbsd.gw.com/cgi-bin/man-cgi?lkm+4+NetBSD-1.6">lkm(4)</a>
+facility is controlled by performing <a href="http://netbsd.gw.com/cgi-bin/man-cgi?ioctl+2+NetBSD-1.6">ioctl(2)</a>
+calls on the <code>/dev/lkm</code> device, but since all operations are handled by the
+<a href="http://netbsd.gw.com/cgi-bin/man-cgi?modload+8+NetBSD-1.6">modload(8)</a>,
+<a href="http://netbsd.gw.com/cgi-bin/man-cgi?modunload+8+NetBSD-1.6">modunload(8)</a> and
+<a href="http://netbsd.gw.com/cgi-bin/man-cgi?modstat+8+NetBSD-1.6">modstat(8)</a> programs, you should never
+have to interact with <code>/dev/lkm</code> directly. Note, that you need to run a kernel compiled
+with the <a href="http://netbsd.gw.com/cgi-bin/man-cgi?lkm+4+NetBSD-1.6">LKM</a> option in order to make use of LKMs.</p>
+
+<h2>Writing the module</h2>
+
+<p>I'd like to show you how to write a simple character device driver that does nothing but the simple job of
+calculating the <a href="http://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci numbers</a> (I'll therefore name
+the module <code>fibo.o</code> and let all the function's names begin with <code>fibo_</code>). The driver
+will provide 8 minor devices <code>/dev/fibo0</code> to <code>/dev/fibo7</code>.
+Each minor device offers the following functions:</p>
+
+<p><figure class="highlight"><pre><code class="language-cpp" data-lang="cpp">static int fibo_open(dev_t, int, int, struct proc <em>);
+static int fibo_close(dev_t, int, int, struct proc </em>);
+static int fibo_read(dev_t dev, struct uio *, int);</code></pre></figure></p>
+
+<p>You can open and close a device provided by this driver and you'll be able to read from it (we'll have
+a closer look at the parameters later, when we discuss the actual functions). Now we need to tell the
+kernel that we provide a character device with the 3 functions listed above. Therefore we need to fill
+in a <code>struct cdevsw</code> (<em>cdevsw</em> means <em>character device switch</em> and the <code>struct cdevsw</code>
+is defined in <code>sys/conf.h</code>).</p>
+
+<p><figure class="highlight"><pre><code class="language-cpp" data-lang="cpp">static struct cdevsw fibo_dev = {
+  fibo_open,
+  fibo_close,
+  fibo_read,
+  (dev_type_write((<em>))) enodev,
+  (dev_type_ioctl((</em>))) enodev,
+  (dev_type_stop((<em>))) enodev,
+  0,
+  (dev_type_poll((</em>))) enodev,
+  (dev_type_mmap((*))) enodev,
+  0
+};</code></pre></figure></p>
+
+<p><code>enodev</code> is a generic function that simply returns the
+<a href="http://netbsd.gw.com/cgi-bin/man-cgi?errno+2+NetBSD-1.6">errno(2)</a> <code>ENODEV</code>
+(<em>Operation not supported by device</em>) which says that we does not support any operations besides
+open, close and read. So, for example, whenever you try to write to the device, the
+<a href="http://netbsd.gw.com/cgi-bin/man-cgi?write+2+NetBSD-1.6">write(2)</a> will fail with <code>ENODEV</code>.</p>
+
+<p>Furtheron we need to tell the kernel how the module is named and where to find information about
+operations provided by the module. This is a quite simple task with the lkm interface: We use the
+preprocessor macro <code>MOD_DEV</code>, which is defined in <code>sys/lkm.h</code> to hand the
+information over. The <code>MOD_DEV</code> macro was changed in NetBSD-current, therefore we use
+the following construct to get things working with both NetBSD 1.6 and earlier and NetBSD 1.6H and
+later (thanks to <a href="mailto:anil_public@yahoo.com">Anil Gopinath</a> for the hint).</p>
+
+<p><figure class="highlight"><pre><code class="language-cpp" data-lang="cpp">#if (<strong>NetBSD_Version</strong> &gt;= 106080000)
+MOD_DEV(&quot;fibo&quot;, &quot;fibo&quot;, NULL, -1, &amp;fibo_dev, -1);</p>
+
+<h1>else</h1>
+
+<p>MOD_DEV(&quot;fibo&quot;, LM_DT_CHAR, -1, &amp;fibo_dev);</p>
+
+<h1>endif</code></pre></figure></h1>
+
+<p>This means that our module is named <code>fibo</code>, we'll provide a character device (minor devices
+are handled by the module itself, so they doesn't matter for now), we want to retrieve a dynamic major
+device number from the kernel (if you want to use a specific major device number you'll need to specify
+that instead of the <code>-1</code>, but beware of getting in conflict with other device drivers) and we
+provide the information about the supported operations in <code>fibo_dev</code>.</p>
+
+<p>In order to ensure proper unloading of the module we need to keep a global reference counter of opened
+minor devices.</p>
+
+<p><figure class="highlight"><pre><code class="language-cpp" data-lang="cpp">static int fibo_refcnt = 0;</code></pre></figure></p>
+
+<p>And furtheron we need to keep a bunch of information about each minor device.</p>
+
+<p><figure class="highlight"><pre><code class="language-cpp" data-lang="cpp">struct fibo_softc {
+  int       sc_refcnt;
+  u_int32_t sc_current;
+  u_int32_t sc_previous;
+};</p>
+
+<h1>define MAXFIBODEVS 8</h1>
+
+<p>static struct fibo_softc fibo_scs[MAXFIBODEVS];</code></pre></figure></p>
+
+<p>As mentioned above our driver will provide 8 minor devices. Each minor device stores information about
+how often it was opened (in our example each minor device can only be opened once to keep things simple),
+the current number and the previous number for calculating the Fibonacci numbers. If you don't know how
+to calculate the Fibonacci numbers, you should have a look on a book about algorithms, as explaining this
+is beyond the scope of this article.</p>
+
+<p>Each kernel module needs to have an entry point which is passed to
+<a href="http://netbsd.gw.com/cgi-bin/man-cgi?ld+1+NetBSD-1.6">ld(1)</a> by modload when the module is linked. The
+default module entry point is named <code>xxxinit</code>. If <code>xxxinit</code> cannot be found, an
+attempt to use <code><i>modulename</i>_lkmentry</code> will be made, where <code><i>modulename</i></code>
+is the filename of the module being loaded without the <code>.o</code>. In general the entry function will
+consist entirely of a single <code>DISPATCH</code> line, with <code>DISPATCH</code> being a preprocessor
+macro defined in <code>sys/lkm.h</code> to handle loading, unloading and stating for us. So our
+<code>fibo_lkmentry</code> function will look like this:</p>
+
+<p><figure class="highlight"><pre><code class="language-cpp" data-lang="cpp">int
+fibo_lkmentry(struct lkm_table *lkmtp, int cmd, nt ver)
+{
+  DISPATCH(lkmtp, cmd, ver, fibo_handle, fibo_handle, fibo_handle);
+}</code></pre></figure></p>
+
+<p>Now we need a handler function for our module to do module specific tasks when loading, unloading or stating
+the module. The name of this handler function is passed to <code>DISPATCH</code> (see above) to tell the
+kernel which function it has to call when doing such things. A pointer to the module entry in the LKM table
+and an integer representing the desired command (<code>LKM_E_LOAD</code>, <code>LKM_E_UNLOAD</code> or
+<code>LKM_E_STAT</code>) are passed to the handler function. The handler is called after the module is
+linked and loaded into the kernel with the <code>LKM_E_LOAD</code> command. Then we need to check whether
+the module was already loaded into the kernel and initialize our data structures. When unloading the module,
+the handler is called with the <code>LKM_E_UNLOAD</code> command and we need to check if the module is not
+required any more (e.g. check if all devices are closed for char/block driver modules) before confirming the
+unload command.</p>
+
+<p><figure class="highlight"><pre><code class="language-cpp" data-lang="cpp">static int
+fibo_handle(struct lkm_table <em>lkmtp, int cmd)
+{
+  switch (cmd) {
+  case LKM_E_LOAD:
+    /</em> check if module was already loaded */
+    if (lkmexists(lkmtp))
+      return (EEXIST);</p>
+
+<pre><code>/* initialize minor device structures */
+bzero(fibo_scs, sizeof(fibo_scs));
+printf(&amp;quot;fibo: FIBONACCI driver loaded successfully\n&amp;quot;);
+break;
+</code></pre>
+
+<p>  case LKM_E_UNLOAD:
+    /<em> check if a minor device is opened </em>/
+    if (fibo_refcnt &gt; 0)
+      return (EBUSY);
+    break;</p>
+
+<p>  case LKM_E_STAT:
+    break;</p>
+
+<p>  default:
+    return (EIO);
+  }</p>
+
+<p>  return (0);
+}</code></pre></figure></p>
+
+<p>The open function is quite simple as most of the hard stuff is already handled by the NetBSD kernel
+(e.g. the kernel will automatically allocate a <a href="http://netbsd.gw.com/cgi-bin/man-cgi?vnode+9+NetBSD-1.6">vnode(9)</a>
+for you). The parameters for the open function are the major and minor device numbers (use the <code>major</code>
+and <code>minor</code> macros), the <code>flag</code> and <code>mode</code> arguments as described in
+<a href="http://netbsd.gw.com/cgi-bin/man-cgi?open+2+NetBSD-1.6">open(2)</a> and a pointer to the <code>struct proc</code>
+of the process that did the open system call.</p>
+
+<p>So the first thing to do is to check if the minor device number we got when the device was opened is not out of
+range, and if the minor device is not already opened. You should always keep in mind that the minor device
+handling is completely up to you and that this is a never ending source of mistakes! Then we need to initialize
+the minor device data (the Fibonacci starting numbers 1, 0 + 1 = 1, 1 + 1 = 2, 1 + 2 = 3, ...) and increase the
+minor device and the global module reference counter.</p>
+
+<p><figure class="highlight"><pre><code class="language-cpp" data-lang="cpp">static int
+fibo_open(dev_t dev, int flag, int mode, struct proc <em>p)
+{
+  struct fibo_softc </em>fibosc = (fibo_scs + minor(dev));</p>
+
+<p>  if (minor(dev) &gt;= MAXFIBODEVS)
+    return (ENODEV);</p>
+
+<p>  /<em> check if device already open </em>/
+  if (fibosc-&gt;sc_refcnt &gt; 0)
+    return (EBUSY);</p>
+
+<p>  fibosc-&gt;sc_current = 1;
+  fibosc-&gt;sc_previous = 0;</p>
+
+<p>  /<em> increase device reference counter </em>/
+  fibosc-&gt;sc_refcnt++;</p>
+
+<p>  /<em> increase module reference counter </em>/
+  fibo_refcnt++;</p>
+
+<p>  return (0);
+}</code></pre></figure></p>
+
+<p>The close function has the same parameters with the same meanings as the open function described above. It
+is used to free the internal data structures of a minor device opened before. You do not need to worry whether
+the device was opened before or to do things like releasing the vnode associated with the device, all you need
+to do is to cleanup the module specific stuff. In our example this means decreasing the minor device and the
+global module reference counters and so that our close function is quite simple.</p>
+
+<p><figure class="highlight"><pre><code class="language-cpp" data-lang="cpp">static int
+fibo_close(dev_t dev, int flag, int mode, struct proc <em>p)
+{
+  struct fibo_softc </em>fibosc = (fibo_scs + minor(dev));</p>
+
+<p>  /<em> decrease device reference counter </em>/
+  fibosc-&gt;sc_refcnt--;</p>
+
+<p>  /<em> decrease module reference counter </em>/
+  fibo_refcnt--;</p>
+
+<p>  return (0);
+}</code></pre></figure></p>
+
+<p>Last but not least the read function. This function has 3 parameters: the device major and minor numbers like
+in the open and close functions, a <code>flag</code> field indicating for example whether the read should be
+done in a non-blocking fashion or such things and a pointer to a <code>struct uio</code> defined in
+<code>sys/uio.h</code>. A <code>struct uio</code> typically describes data in motion, in case of a
+<a href="http://netbsd.gw.com/cgi-bin/man-cgi?read+2+NetBSD-1.6">read(2)</a> system call data moved from kernel-space
+to user-space. This may look a bit strange if you already did device driver progamming on GNU/Linux, but the
+uio concept used by the NetBSD kernel simplifies a lot of things and provides a generic and consistent interface
+for kernel-space to user-space and kernel-space to kernel-space data moving. See
+<a href="http://netbsd.gw.com/cgi-bin/man-cgi?uiomove+9+NetBSD-1.6">uiomove(9)</a> for more information.</p>
+
+<p>Back on stage, we should first have a look at the read function and discuss the details afterwards.</p>
+
+<p><figure class="highlight"><pre><code class="language-cpp" data-lang="cpp">static int
+fibo_read(dev_t dev, struct uio <em>uio, int flag)
+{
+  struct fibo_softc </em>fibosc = (fibo_scs + minor(dev));</p>
+
+<p>  if (uio-&gt;uio_resid &lt; sizeof(u_int32_t))
+    return (EINVAL);</p>
+
+<p>  while (uio-&gt;uio_resid &gt;= sizeof(u_int32_t)) {
+    int error;</p>
+
+<pre><code>/* copy to user space */
+if ((error = uiomove(&amp;amp;(fibosc-&amp;gt;sc_current),
+            sizeof(fibosc-&amp;gt;sc_current), uio))) {
+  return (error);
+}
+
+/* prevent overflow */
+if (fibosc-&amp;gt;sc_current &amp;gt; (MAXFIBONUM - 1)) {
+  fibosc-&amp;gt;sc_current = 1;
+  fibosc-&amp;gt;sc_previous = 0;
+  continue;
+}
+
+/* calculate */ {
+  u_int32_t tmp;
+
+  tmp = fibosc-&amp;gt;sc_current;
+  fibosc-&amp;gt;sc_current += fibosc-&amp;gt;sc_previous;
+  fibosc-&amp;gt;sc_previous = tmp;
+}
+</code></pre>
+
+<p>  }</p>
+
+<p>  return (0);
+}</code></pre></figure></p>
+
+<p>So the first thing we do, is to check whether the process requests less than <code>sizeof(u_int32_t)</code>
+bytes (actually 4 bytes). Our read function always reads a bunch of 4-byte blocks and to keep it simple
+and easy to understand we disallow reading less than 4 bytes at a time (<code>uio->uio_resid</code> holds
+the number of remaining bytes to move to user-space, automatically decreased by <code>uiomove</code>).</p>
+
+<p>The function copies the current Fibonacci number into the user-space buffer, checks for a possible overflow
+(only the first 42 Fibonacci numbers fit into <code>u_int32_t</code>) and calculates the next Fibonacci
+number. If there is enough space left in the user-space buffer, the function loops and restarts the process
+of moving, checking and calculating until the buffer is filled up to the possible maximum or
+<a href="http://netbsd.gw.com/cgi-bin/man-cgi?uiomove+9+NetBSD-1.6">uiomove(9)</a> returns an error. Note, that a
+<a href="http://netbsd.gw.com/cgi-bin/man-cgi?read+2+NetBSD-1.6">read(2)</a> system call on this device will never
+return 0, and so it will never reach an end-of-file (EOF), so the device will generate Fibonacci numbers
+forever.</p>
+
+<p>If you're familar with GNU/Linux device driver programming you might have noticed that we do not return
+<code>-<i>ERRNO</i></code> on failure, and in case of the read system call the number of bytes read, but
+instead we return <code>0</code> on success and the positive errno value on failure. Everything else is
+handled by the NetBSD kernel itself, so we do not need to care about.</p>
+
+<h2>Loading the module</h2>
+
+<p>Now that our device driver module is completed, we need a shell script that will be executed when the module
+is successfully loaded to create the required device nodes in <code>/dev</code>. This shell script (or program)
+is always passed three arguments: the module id (in decimal), the module type (in hexadecimal) and the character
+major device number (this differs for other types of LKMs such as system call modules). So our script is pretty
+simple:</p>
+
+<p><figure class="highlight"><pre><code class="language-sh" data-lang="sh">if [ $# -ne 3 ]; then
+  echo &quot;$0 should only be called from modload(8) with 3 args&quot;
+  exit 1
+fi</code></pre></figure></p>
+
+<p>First check whether all three command line arguments are present and exit with error code if not.</p>
+
+<p><figure class="highlight"><pre><code class="language-sh" data-lang="sh">for i in 0 1 2 3 4 5 6 7; do
+  rm -f /dev/fibo$i
+  mknod /dev/fibo$i c $3 $i
+  chmod 666 /dev/fibo$i
+done
+exit 0</code></pre></figure></p>
+
+<p>And finally (re)create the required special device nodes. Now we are ready to give our module a first test run.
+Compile the module and load the module with the following command (this needs to be run as superuser):</p>
+
+<p><figure class="highlight"><pre><code class="language-sh" data-lang="sh">modload -e fibo_lkmentry -p fibo_post.sh fibo.o</code></pre></figure></p>
+
+<p>If everything went well, the <a href="http://netbsd.gw.com/cgi-bin/man-cgi?modstat+8+NetBSD-1.6">modstat(8)</a> program
+should present you output similar to this:</p>
+
+<p><figure class="highlight"><pre><code class="language-text" data-lang="text">Type    Id  Off Loadaddr Size Info     Rev Module Name
+DEV      0   29 dca4f000 0004 dca4f260   1 fibo</code></pre></figure></p>
+
+<h2>Testing the module</h2>
+
+<p>In order to test your new kernel module, we need a small test program that does nothing more than reading a
+32bit unsigned integer value from <code>/dev/fibo0</code> and outputs the value to standard output. See the
+sample program below:</p>
+
+<p><figure class="highlight"><pre><code class="language-cpp" data-lang="cpp">#define DEVICE &quot;/dev/fibo0&quot;</p>
+
+<p>int
+main(int argc, char **argv)
+{
+  u_int32_t val;
+  int fd, ret;</p>
+
+<p>  if ((fd = open(DEVICE, O_RDONLY)) &lt; 0)
+    err(1, &quot;unable to open &quot; DEVICE);</p>
+
+<p>  while ((ret = read(fd, &amp;val, sizeof(val))) == sizeof(val))
+    printf(&quot;%u\n&quot;, val);</p>
+
+<p>  if (ret &lt; 0)
+    err(2, &quot;read(&quot; DEVICE &quot;)&quot;);</p>
+
+<p>  close(fd);
+  return 0;
+}</code></pre></figure></p>
+
+<p>When you run this sample test program, it will output Fibonacci numbers below 2971215074 until you interrupt
+or kill the program. To unload the kernel module, you need to run the following command (as superuser):</p>
+
+<p><figure class="highlight"><pre><code class="language-sh" data-lang="sh">modunload -n fibo</code></pre></figure></p>
+
+<p>The complete sources for the example above, including a <code>Makefile</code>, are available online at:</p>
+
+<ul>
+<li><a href="https://github.com/bmeurer/fibo_drv">https://github.com/bmeurer/fibo_drv</a></li>
+</ul>
+
+
+<p>A <code>tar</code> archive with the sources can be found
+<a href="https://github.com/bmeurer/fibo_drv/tarball/master">here</a>.
+I hope you like this small introduction to the NetBSD lkm system. If you have any questions or if you
+would like to give me some feedback, feel free to contact <a href="/about">me</a>.</p>
+
+
+    <div class="meta">
+      <div class="published">
+        Published: 2002-11-27
+        &mdash;
+        <a href="/2002/11/27/introduction-to-netbsd-loadable-kernel-modules/#disqus_thread" title="Comments">Comments</a>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+  </article>
+
+  <article class="post">
+    <h3><a href="/2002/10/28/setting-up-kde3-on-netbsd/" rel="bookmark permalink" title="Permanent link to this post">Setting up KDE 3 on NetBSD</a></h3>
+
+    <h2>Introduction</h2>
+
+<p>Like most other Unix(TM)-like operating systems, the <a href="http://www.kde.org/">K Desktop
+Environment (KDE)</a> is also available for NetBSD. KDE is a powerful graphical desktop
+environment based upon <a href="http://trolltech.com/">Trolltech</a>'s <a
+href="http://www.trolltech.com/products/qt/index.html">QT</a> library, and is similar to other
+desktop environments available for Unix(TM) workstations, such as the Common Desktop Environment
+(CDE) or <a href="http://www.gnome.org/">GNOME</a>. It tries to combine ease of use, contemporary
+functionality, and outstanding graphical design with the technological superiority of the Unix
+operating system. Like NetBSD itself, KDE is also an Internet project and is licensed under the
+GNU General Public License (GPL), and is therefore open source software.</p>
+
+<h2>Installation</h2>
+
+<p>It is quite easy to install the latest KDE 3 on a NetBSD system using either binary packages or
+building it from <a href="http://www.pkgsrc.org/">pkgsrc</a>.  As I wrote this, there were no
+official KDE 3 binary packages available on the ftp servers and I didn't have the space and
+bandwidth to put my packages online :-(. It would be nice, if someone could provide me with a
+few 100MB of web/ftp space to put my packages on, so that everyone reading this could use these
+packages.</p>
+
+<p>If you are not lucky to fetch some binary packages for KDE 3, then you should fetch a recent
+pkgsrc from NetBSD-current (must be a post 20020830) and start building KDE from scratch.
+Therefore you should change to the directory <code>x11/kde3</code> in your pkgsrc tree and
+start by typing <code>make install</code>. <b>NOTE:</b> Before starting to install KDE 3, you
+should remove any installed KDE package and the installed QT packages (if they're older
+than 3.0.5), and do a <code>make clean</code> on your pkgsrc tree, else the installation might
+fail. After starting the installation process, you'll need to wait up to 3 days, until the
+installation is complete, depending on the hardware of your machine. You might want to speed
+up the installation process by mounting the filesystem that contains the pkgsrc tree with the
+<code>async</code> option; e.g. type <code>mount -u -o async /usr/pkgsrc</code>, but beware,
+that mounting a filesystem asyncronous may have a bad effect on your data if the computer
+crashes. So, you have been warned, use this option at <b>your own risk</b>.</p>
+
+<h2>Postinstallation</h2>
+
+<p>Now, that KDE 3 is installed properly, all you need to do, is setup your X session to start
+KDE 3. Therefore edit (maybe create) the file <code>.xsession</code> in your home directory
+and put in the following lines:</p>
+
+<p><figure class="highlight"><pre><code class="language-sh" data-lang="sh">#!/bin/sh
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/pkg/bin:/usr/pkg/sbin:/usr/local/bin:/usr/local/sbin:/usr/X11R6/bin
+exec /usr/X11R6/bin/startkde</code></pre></figure></p>
+
+<p>Then mark the file executable by typing <code>chmod +x $HOME/.xsession</code>, login as usual
+with xdm and feel happy about your new and fancy KDE desktop :-).</p>
+
+<p>If you're using <code>startx</code> instead of <code>xdm</code>, you need to edit the file
+<code>.xinitrc</code> in your home directory instead.</p>
+
+<h2>Using antialiased fonts</h2>
+
+<p>You might also want to get KDE rendering those nice fonts you saw on all those screenshots all
+over the web. Therefore you'll need to have <a href="http://www.xfree86.org/">XFree86</a> version
+4.x installed (this is the default for NetBSD 1.6 and above). Then you need to install some nice
+looking TrueType or Type1 fonts, therefore you can use the freely available webfonts provided by
+Microsoft, simply install the <a
+href="ftp://ftp.netbsd.org/pub/NetBSD-current/pkgsrc/fonts/ms-ttf/README.html">fonts/ms-ttf</a>
+package and the <a
+href="ftp://ftp.netbsd.org/pub/NetBSD-current/pkgsrc/fonts/ttmkfdir/README.html">fonts/ttmkfdir</a> package.
+Then goto <code>/usr/X11R6/lib/X11/fonts/TrueType</code> and type:</p>
+
+<p><figure class="highlight"><pre><code class="language-console" data-lang="console">$ ttmkfdir &gt; fonts.scale
+$ mkfontdir</code></pre></figure></p>
+
+<p>After that add the following line to your <code>/usr/X11R6/lib/X11/XF86Config-4</code>
+in the <code>Files</code> section</p>
+
+<p><figure class="highlight"><pre><code class="language-sh" data-lang="sh">FontPath &quot;/usr/X11R6/lib/X11/fonts/TrueType/&quot;</code></pre></figure></p>
+
+<p>and</p>
+
+<p><figure class="highlight"><pre><code class="language-sh" data-lang="sh">dir &quot;/usr/X11R6/lib/X11/fonts/TrueType&quot;</code></pre></figure></p>
+
+<p>to your <code>/usr/X11R6/lib/X11/XftConfig</code>. Logout from your X session and restart your
+X server by hitting <code>CTRL-ALT-BACKSPACE</code> at your xdm login prompt. Relogin to your
+KDE desktop and enable "Use Anti-Aliasing for fonts" in the KDE control center; logout again and
+relogin, and choose some nice antialiased fonts (the ones with the <code>[Xft]</code> in the
+name) for your desktop. Enjoy! ;-).</p>
+
+<h2>Feedback</h2>
+
+<p>I hope you liked my little KDE 3 HowTo and I would be pleased to
+get some good (or even bad ;-) feedback from you. If you
+have any problems or questions on this topic, I'll try to help you
+getting things to work.</p>
+
+
+    <div class="meta">
+      <div class="published">
+        Published: 2002-10-28
+        &mdash;
+        <a href="/2002/10/28/setting-up-kde3-on-netbsd/#disqus_thread" title="Comments">Comments</a>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+  </article>
+
+  <article class="post">
+    <h3><a href="/2002/10/19/how-to-use-hardware-monitors-with-netbsd/" rel="bookmark permalink" title="Permanent link to this post">How to use hardware monitors with NetBSD</a></h3>
+
+    <p> 
+  Today, there are various environmental sensor ICs available on modern mainboards, which are able of monitoring fan speed,
+  cpu and system temperature, and voltage for example. NetBSD currently supports the National Semiconductor LM78, LM79 and compatible 
+  hardware monitors (the <a href="http://www.tac.eu.org/cgi-bin/man-cgi?lm+4+NetBSD-current">lm(4)</a> device), the VIA VT82C686A hardware
+  monitor (the <a href="http://www.tac.eu.org/cgi-bin/man-cgi?viaenv+4+NetBSD-current">viaenv(4)</a> device) and ACPI aware hardware
+  monitors (the <a href="http://www.tac.eu.org/cgi-bin/man-cgi?acpi+4+NetBSD-current">acpi(4)</a> subsystem) through its <a
+  href="http://www.tac.eu.org/cgi-bin/man-cgi?envsys+4+NetBSD-current">Environmental Systems API</a>. These devices are not enabled
+  by default, you need to <a href="http://www.mclink.it/personal/MG2508/nbsdeng/chap-kernel.html">recompile your kernel</a> with the
+  following additional lines in your kernel config file:
+</p> 
+  
+<p> 
+  For the National Semiconductor LM78, LM79 and compatible monitors (you may need to adjust the I/O port settings):
+</p> 
+
+<pre> 
+lm0 at isa? port 0x290
+</pre> 
+
+<p> 
+  For the VIA VT82C686A hardware monitor:
+</p> 
+  
+<pre> 
+viapm* at pci? dev ? function ?
+viaenv* at viapm?
+</pre> 
+
+<p> 
+  For ACPI enabled monitors (thanks to <a href="mailto:joel@carnat.net">Joel Carnat</a> for the hint):
+</p> 
+
+<pre> 
+options MPACPI
+acpi0 at mainbus0
+acpiacad at acpi?
+acpibat* at acpi?
+acpibut* at acpi?
+acpiec* at acpi?
+acpilid* at acpi?
+acpitz* at acpi?
+</pre> 
+  
+<p> 
+  After booting your new kernel, you can access your hardware sensors, using the <a
+  href="http://www.tac.eu.org/cgi-bin/man-cgi?envstat+8+NetBSD-current">envstat(8)</a> command. For example, to display
+  all supported sensors, type <code>envstat -l</code>, and to actually read the environmental sensors, simply type
+  <code>envstat</code>. For more information about using the <a href="http://www.tac.eu.org/cgi-bin/man-cgi?envstat+8+NetBSD-current">envstat(8)</a> 
+  tool, refer to the manpage.
+</p> 
+
+
+
+    <div class="meta">
+      <div class="published">
+        Published: 2002-10-19
+        &mdash;
+        <a href="/2002/10/19/how-to-use-hardware-monitors-with-netbsd/#disqus_thread" title="Comments">Comments</a>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+  </article>
+
+  <article class="post">
+    <h3><a href="/2002/10/02/why-netbsd/" rel="bookmark permalink" title="Permanent link to this post">Why NetBSD?</a></h3>
+
+    <p>During the last years, I used to install a lot of different operating systems, looking for the
+system that fits my needs best. For example, I tried Microsoft Windows NT (3.51, 4.0 and 5.0
+and had a quick look at 5.1), several Linux distributions (e.g.
+<a href="http://www.suse.com">SuSE Linux</a>, <a href="http://www.redhat.com">RedHat Linux</a>,
+<a href="http://www.debian.org">Debian GNU/Linux</a> and <a href="http://www.mandrake.com">Mandrake Linux</a>),
+<a href="http://www.freebsd.org">FreeBSD</a> and <a href="http://www.openbsd.org">OpenBSD</a>. We also tried to write
+our own operating system (we named it "Socratix"), but soon we noticed, that it was an
+impossible task for us to write a whole operating system (from scratch).</p>
+
+<p>All those systems I tried have their particular advantages, but of course they all have their
+<em>native</em> disadvantages. And not allowing me to fix these disadvantages (e.g. the Debian Policy
+is such a disadvantage, I think), makes me become very frustrated of open source software (and
+the philosophy behind it). So after all, I decided to give <a href="http://www.netbsd.org">NetBSD</a>
+another try (I had installed NetBSD several times before, for testing reasons, but never
+get really close to it). After reading <a href="http://www.mclink.it/personal/MG2508">Federico Lupi</a>'s
+excellent <a href="http://www.mclink.it/personal/MG2508/nbsdeng/netbsd.html">NetBSD Guide</a> I fetched
+the NetBSD distribution, created an iso image out of it and burned it onto a cd. Starting off
+the very straight-forward installation procedure, I was very pleased with NetBSD. It allows to
+me to do exactly what I want to do, nothing more, and nothing less. The base system is very
+clean and includes only the main parts of the system, so soon I decided to fetch a recent
+<code>pkgsrc.tar.gz</code> and installed some packages (I cannot live without perl ;-). The only
+thing I'm still missing about pkgsrc is a tool like portupgrade; it is currently been worked on,
+and e.g. <code>pkg_hack</code> does nearly everything portupgrade does, but you know
+<a href="http://www.netbsd.org/Goals/system.html"><i>It doesn't work <b>unless</b> it's
+right</i></a> :-).</p>
+
+<p>After all, I think the main reason for using NetBSD is its clean design and clean development
+model. The problem with the mainstream operating systems such as GNU/Linux is that people always
+want to have the newest features, and so the main goal is to get this features implemented as
+soon as possible, without the need to get a clean implementation. With NetBSD, you may get this
+features up to one or two years later, after somebody worked out a clean and stable
+implementation and a lot of testing was done on it. And when you get it, you can be sure, it
+works! So, now you know, why I prefer NetBSD, and what about you? Are you still loosing time
+getting your <a href="http://www.kernel.org/">Linux</a> distribution to work? Tired of
+fixing Debian package dependencies everytime you type <code>apt-get dist-upgrade</code>? So,
+maybe you should give NetBSD a try, but beware of making the wrong decision: NetBSD is
+<b>no</b> mainstream operating system, so if you always want to get the latest (unstable)
+features, you're better off not choosing NetBSD to run your computer!</p>
+
+<p>And last but not least: <a href="http://srom.zgp.org/">NetBSD rules</a> :-).</p>
+
+
+    <div class="meta">
+      <div class="published">
+        Published: 2002-10-02
+        &mdash;
+        <a href="/2002/10/02/why-netbsd/#disqus_thread" title="Comments">Comments</a>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+  </article>
+
+
+<div class="paging">
+  
+    
+    <a href="/page32" class="newer"><h1>Newer Posts</h1></a>
+    
+  
+  
+  <a href="/page34" class="older"><h1>Older Posts</h1></a></li>
+  
+
+  <div class="clear"></div>
+</div>
+
+
+    </div>
+
+    <div class="span-5 last" id="sidebar">
+  <div class="sidebarbox">
+    <h4>Pages</h4>
+    <ul id="pages">
+      <li><a rel="bookmark" title="Home" href="/">Home</a></li>
+      <li><a rel="bookmark" title="Archive" href="/archive">Archive</a></li>
+      <li><a rel="bookmark" title="Projects" href="/projects">Projects</a></li>
+      <li><a rel="bookmark" title="publications" href="/publications">Publications</a></li>
+      <li><a rel="bookmark" title="About" href="/about">About</a></li>
+    </ul>
+  </div>
+
+  <div class="sidebarbox">
+    <h4>Subscribe</h4>
+    <ul>
+      <li><a title="RSS Feed" href="http://feeds.feedburner.com/benediktmeurer" class="icon-link" id="feed-link">RSS</a></li>
+    </ul>
+  </div>
+
+  <div class="sidebarbox">
+    <h4>Me Elsewhere</h4>
+    <ul>
+      <li><a rel="bookmark" title="GitHub" href="https://github.com/" class="icon-link" id="github-link">GitHub</a></li>
+      <li><a rel="bookmark" title="Twitter" href="http://twitter.com/" class="icon-link" id="twitter-link">Twitter</a></li>
+      <li><a rel="bookmark" title="Facebook" href="https://facebook.com/benedikt.meurer" class="icon-link" id="facebook-link">Facebook</a></li>
+	    <li><a rel="bookmark" title="LinkedIn" href="http://linkedin.com/in/benediktmeurer" class="icon-link" id="linkedin-link">LinkedIn</a></li>
+	    <li><a rel="bookmark" title="ohloh" href="http://www.ohloh.net/accounts/bmeurer" class="icon-link" id="ohloh-link">ohloh</a></li>
+    </ul>
+  </div>
+
+  <div class="sidebarbox">
+    <h4>Contact Me</h4>
+    <ul>
+      <li><a rel="bookmark" title="Email" href="" class="icon-link" id="gmail-link">Gmail</a></li>
+    </ul>
+  </div>
+</div>
+
+
+    <footer class="span-21 last" id="footer">
+  <p>
+    All content copyright &copy; <a href="/about">Benedikt Meurer</a>.
+    Written in mostly valid <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fbenediktmeurer.de%2F" title="Valid HTML5" rel="external" target="_blank">HTML5</a> and <a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fbenediktmeurer.de&amp;profile=css3&amp;usermedium=all&amp;warning=1" title="Valid CSS3" rel="external" target="_blank">CSS3</a>.
+  </p>
+  <p>
+    Powered by <a href="http://github.com/mojombo/jekyll" title="The Jekyll (static site generator) code repository"
+    rel="external" target="_blank">Jekyll</a>.
+  </p>
+</footer>
+
+
+  </div>
+  <script type="text/javascript">
+  //<![CDATA[
+  (function() {
+    var links = document.getElementsByTagName('a');
+    var query = '?';
+    for(var i = 0; i < links.length; i++) {
+      if(links[i].href.indexOf('#disqus_thread') >= 0) {
+        query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+      }
+    }
+    document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/benediktmeurer/get_num_replies.js' + query + '"></' + 'script>');
+  })();
+  //]]>
+</script>
+
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24476004-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+
+</html>

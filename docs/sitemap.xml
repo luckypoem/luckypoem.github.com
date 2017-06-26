@@ -1,0 +1,4132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home -->
+  <url>
+    <loc>http://benediktmeurer.de</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>http://benediktmeurer.de/about</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://benediktmeurer.de/about/my-public-gpg-key</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Archive -->
+  <url>
+    <loc>http://benediktmeurer.de/archive</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Projects -->
+  <url>
+    <loc>http://benediktmeurer.de/projects</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Publications -->
+  <url>
+    <loc>http://benediktmeurer.de/publications</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- BMKit -->
+  <url>
+    <loc>http://benediktmeurer.de/BMKit</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- iFlashLightPlus -->
+  <url>
+    <loc>http://benediktmeurer.de/iFlashLightPlus</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://benediktmeurer.de/iFlashLightPlus/contact</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- PhotoAccess -->
+  <url>
+    <loc>http://benediktmeurer.de/PhotoAccess</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://benediktmeurer.de/PhotoAccess/faq</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://benediktmeurer.de/PhotoAccess/contact</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- git-hooks -->
+  <url>
+    <loc>http://benediktmeurer.de/git-hooks</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- git-utils -->
+  <url>
+    <loc>http://benediktmeurer.de/git-utils</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- WebsiteCompressor -->
+  <url>
+    <loc>http://benediktmeurer.de/websitecompressor</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Posts & Tags -->
+  
+  <url>
+    <loc>http://benediktmeurer.de/misc/2017/06/24/thinking/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/misc/2012/05/25/chinese-economy/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/music/2012/05/05/songs/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/music/2012/05/05/becoz-i-love-u/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2012/04/26/howto-fix-the-hostname-of-your-strato-vserver/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/debian</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/hostname</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/strato</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/vserver</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/12/04/arm-linux-gnueabi-cross-compiler-for-osx/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ocaml</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/cross</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/compiler</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/gcc</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/binutils</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/macports</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/osx</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/10/16/red-black-trees-for-ocaml/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ocaml</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/research</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/red-black trees</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/10/06/towards-a-native-toplevel-for-the-ocaml-language/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ocaml</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/jit</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/research</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/toplevel</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/10/06/patent-evil/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/software patents</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/patent war</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/10/06/native-toplevel-test-release/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ocaml</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/research</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ocamlnat</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/09/14/ocamlnat-benchmark/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ocaml</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ocamlnat</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ocamljit2</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/09/09/new-website-design/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/web site</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/jekyll</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/github</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/09/07/ssh-via-ssh-tunnel/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ssh</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/tunnel</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/linux</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/osx</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/08/25/ocaml-linear-scan-register-allocator/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ocaml</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/diploma thesis</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/linear scan</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/register allocation</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/08/20/ocaml-github-mirror/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ocaml</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/github</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/git</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/08/16/demoncam-promo-video/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/app</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ios</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/iphone</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ipad</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/08/15/cocoaheads-siegen-september-meeting/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/cocoaheads</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/cocoa</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ios</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/mac</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/osx</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/08/13/random-crashes-with-ios-4-2-1/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ios</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/cocoa</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/crashes</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/08/11/blocks-and-grand-central-dispatch/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/blocks</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/gcd</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/cocoa</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ios</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/cocoaheads</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/08/04/how-to-uncrush-pngcrushed-images-from-an-ios-app-bundle/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ios</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/iphone</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/app</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/bundle</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/pngcrush</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/07/25/using-git-tags-to-manage-the-version-of-xcode-projects/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/git</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xcode</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ios</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/mac</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/07/24/disabling-the-local-snapshots-feature-of-time-machine-in-lion/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/osx</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/mac</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/lion</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/time machine</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/07/21/lion/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/osx</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/mac</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/lion</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/07/20/osx-lion/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/osx</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/mac</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/lion</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/07/20/jekyllified-cocoaheads-siegen/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/cocoaheads</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/jekyll</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/github</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/07/11/new-website/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/web site</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/jekyll</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/github</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/06/19/xcasts-color-theme-for-xcode4/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xcode</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/06/15/nice-transition-from-splash-screen-to-main-application-screen/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ios</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/iphone</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ipad</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/objc</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/06/13/rounded-rect-additions-for-uilabel/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ios</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/iphone</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ipad</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/objc</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/05/31/git-utils/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/git</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2011/05/10/a-step-indexed-semantic-model-of-types-for-the-call-by-name-lambda-calculus/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/semantics</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/types</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/lambda calculus</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/step-indexing</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2010/11/30/ocamljit2-vs-ocamljit/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ocaml</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/jit</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/research</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2010/11/16/ocamljit-20/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ocaml</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/jit</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/research</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2009/11/23/git-hooks/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/git</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2009/11/07/gitweb-and-http-transport-for-public-repositories/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/git</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/gitweb</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/http</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/public</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/apache</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2007/02/12/thunar-090-exo-034-and-thunar-volman-020-releases/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/exo</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2007/01/22/seminar-paper-on-model-checking/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/model checking</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/seminar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2007/01/21/thunar-080-and-libexo-032-releases/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/exo</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2007/01/21/a-visual-tour-of-xfce-440/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/exo</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/terminal</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2007/01/15/thunar-volman-010/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/11/15/just-another-xfce-44-review/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/11/06/xfce-44-release-candiate-2/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/11/05/thunar-050-and-libexo-03112-rc2-releases/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/exo</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/11/04/thunar-archive-plugin-022/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/11/01/xfld-03-release/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/oscillation</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/09/03/xfce-44-release-candidate-1/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/09/03/thunar-040-and-libexo-03110-rc1-releases/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/exo</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/08/09/new-features-in-thunar-040rc1/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/exo</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/gtk</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/07/28/trash-bugs-wasted-time/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/gtk</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/07/21/trash-is-back/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/07/10/xfce-44-beta2-released/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/07/09/thunar-032-and-libexo-0318-beta2-releases/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/exo</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/07/04/thunar-archive-plugin-020/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/05/11/anoter-xfce-44-beta1-review/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/05/05/new-xfce-installer/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/05/02/xfce-44-beta1-review/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/04/18/major-changes-in-xfce-44-beta1/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/exo</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/terminal</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/04/17/xfce-44-beta1-released/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/04/17/thunar-archive-plugin-012/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/04/17/thunar-030-and-libexo-0316-beta1-releases/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/exo</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/04/15/new-thunar-wiki/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/04/14/compact-view/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/exo</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/04/13/close-to-beta1/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/03/27/transparent-terminal-hack/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/terminal</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/03/26/thunar-archive-plugin-010/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/03/15/thunar-startup/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/03/09/whats-next/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/03/05/thunar-022-and-libexo-0314-alpha2-releases/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/exo</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/02/06/desktop-actions/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/01/22/thunar-020-and-libexo-0312-alpha-releases/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/exo</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2006/01/10/some-more-screenshots/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/11/15/just-another-screenshot/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/11/14/thunar-014-and-libexo-0311-pre-alpha-releases/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/exo</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/11/09/new-thunar-snapshot/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/09/22/thunar-application-chooser/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/09/15/misuse-of-icons-in-gtk-gnome/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/gtk</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/gnome</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/09/10/content-manager-ideas/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/kde</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/09/09/new-installer/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/09/03/thumbnails/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/09/02/drag-and-drop/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/09/02/debian-packages-for-thunar-and-libexo/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/exo</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/debian</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/oscillation</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/08/19/icon-view/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/exo</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/08/05/kde-viewer/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/kde</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/gnome</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/osx</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/08/02/file-alteration-monitoring/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/31/thunar-in-xfce-svn/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/26/transfering-files/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/20/time/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/16/slow-media/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/15/future-of-xfce4-toys/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/15/autostart-editor/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/14/new-autostart-mechanism-in-xfce4-session/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/11/windows-explorer/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/windows</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/11/menu-merging/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/gtk</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/10/lemmings/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/fun</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/09/xfce-developer-tools-430/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/09/a-brief-introduction-to-the-xfce-developer-tools/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/06/no-software-patents-in-europe/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/software patents</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/06/debian-update/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/oscillation</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/debian</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ubuntu</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/06/422-done/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/debian</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/05/orage-is-better-than-xfcalendar/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/05/it-just-doesnt-work/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/linux</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/kde</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/gnome</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/05/desktop-notification-in-reply-to-chris/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/gnome</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/04/icon-theme-cache/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/04/desktop-notification/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/gnome</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/02/where-do-you-want-to-go-gnome/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/gnome</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/nautilus</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/07/02/freedom/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/heise</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/28/small-deb-update/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/exo</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/oscillation</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/28/qt4/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/qt</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/27/terminal-day/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/terminal</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/22/and-then-there-was-trash/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/21/signals/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/21/hierarchical-spatial/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/19/trash-me-baby/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/18/linux-for-losers/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/linux</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/openbsd</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/18/all-quiet-on-the-western-front/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/16/testing-gtkiconview-28/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/exo</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/16/icon-view-renderer/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/exo</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/15/icon-view-item-renderer/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/exo</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/14/volume-manager-2nd/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/freebsd</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/12/volume-manager/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/11/favourites/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/10/perl-guru-wanted/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/os-cillation</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/10/another-website-mockup/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/09/my-window-manager-is-faster-than-yours/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/e17</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/08/location-buttons/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/05/website-mockups/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/05/just-another-screenshot/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/04/spatial-thunar/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/02/progress-again/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/06/01/clearance/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/05/31/edscott-about-thunar/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/05/31/development-continues/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/05/30/break/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/04/01/too-much-work/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/29/thunar-name-of-the-beast/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/29/caching-mime-information/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/27/thunar-no-feedback/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/25/thunar-relations/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/24/thunar-designing-the-architecture/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/20/thunar-suggestion-20050320/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/20/thunar-location-bar-again/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/20/and-the-laugh-of-the-day-goes-to/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/debian</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/ubuntu</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/gnome</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/19/xfce-splash-screen-crash-course/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/19/thunar-firefox-like-location-bar-the-2nd-skin/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/19/terminal-024-released/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/terminal</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/19/4211-is-doomed/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/18/xfce-4211-available/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/18/thunar-firefox-like-location-bar/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/17/thunar-open-location-ideas/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/17/releasing-bugs/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/17/new-panel-design/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/17/embedded-xfce/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/17/debian-packages-for-xfce-421-and-xfmedia-070/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/debian</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/17/critical-bug-in-xfce4-panel-421/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/16/xfcalendar-improvements/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/16/thunar-location-bar-vs-path-bar/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/thunar</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2005/03/16/premature-xfce-421-announcement/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/xfce</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/kde</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2004/12/04/enigmail-works/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/netbsd</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/enigmail</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/mozilla</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/gnupg</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2003/05/01/what-to-put-in-etcmkconf/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/netbsd</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2003/02/02/how-to-get-netbsd-running-on-your-sega-dreamcast-game-console/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/netbsd</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2003/01/30/netbsd-16-book/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/netbsd</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2002/11/27/introduction-to-netbsd-loadable-kernel-modules/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/netbsd</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2002/10/28/setting-up-kde3-on-netbsd/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/netbsd</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/kde</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2002/10/19/how-to-use-hardware-monitors-with-netbsd/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/netbsd</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2002/10/02/why-netbsd/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/netbsd</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2002/09/28/what-bsd-gives-to-the-world/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/netbsd</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/freebsd</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/openbsd</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2002/09/09/netbsd-16/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/netbsd</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2002/09/06/bsd-multimedia/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/netbsd</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/freebsd</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2002/09/04/netbsd-16rc3/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/netbsd</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2002/08/31/setting-up-sendmail-with-milter-support-on-netbsd/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/netbsd</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/sendmail</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/milter</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://benediktmeurer.de/2002/08/02/irix-binary-compatibility/</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benediktmeurer.de/tag/netbsd</loc>
+    <lastmod>2017-06-26T16:53:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  
+</urlset>

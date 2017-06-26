@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>BMKit</title>
+
+  <!-- Site Author -->
+  <meta name="author" content="Benedikt Meurer" />
+
+  <!-- Page Description -->
+  <meta name="description" content="Collection of various useful Objective-C classes and categories" />
+
+  <!-- Google Site Verification -->
+  <meta name="google-site-verification" content="1gkRIROhZsIi5eq-oNYG1R73thPYUmsb7IIQpDpBiB0" />
+
+  <!-- Syntax Highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+  <!-- CSS -->
+  <link href="/css/githubproject.css" rel="stylesheet" type="text/css" media="screen, projection" />
+
+  <!-- jQuery -->
+  <script src="/js/jquery.min.js" type="text/javascript"></script>
+
+  <!-- socialshareprivacy jQuery Plugin -->
+  <!--
+  socialshareprivacy jQuery Plugin v1.2
+
+  URL: http://www.heise.de/extras/socialshareprivacy
+-->
+<script src="/js/jquery.socialshareprivacy.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+  jQuery(document).ready(function($){
+    if($('#socialshareprivacy').length > 0){
+      $('#socialshareprivacy').socialSharePrivacy({
+        services : {
+          facebook : {
+              'perma_option': 'off',
+              'status' : 'on',
+              'language' : 'en',
+              'dummy_img' : '/images/socialshareprivacy_facebook.png',
+              'txt_fb_off' : 'not connected to Facebook',
+              'txt_fb_on' : 'connected to Facebook',
+              'txt_info' : '2 clicks for better data protection: Only when you click here, the button is active and you can send your recommendation on the selected social network. Even when you only enable it, data will be transferred to third parties - see <em>i</em> (German).',
+          },
+          twitter : {
+              'perma_option': 'off',
+              'status' : 'on',
+              'language' : 'en',
+              'dummy_img' : '/images/socialshareprivacy_twitter.png',
+              'txt_twitter_off' : 'not connected to Twitter',
+              'txt_twitter_on' : 'connected to Twitter',
+              'txt_info' : '2 clicks for better data protection: Only when you click here, the button is active and you can send your recommendation on the selected social network. Even when you only enable it, data will be transferred to third parties - see <em>i</em> (German).',
+          },
+          gplus : {
+              'perma_option': 'off',
+              'status' : 'on',
+              'language' : 'en',
+              'dummy_img' : '/images/socialshareprivacy_gplus.png',
+              'txt_gplus_off' : 'not connected to Google+',
+              'txt_gplus_on' : 'connected to Google+',
+              'txt_info' : '2 clicks for better data protection: Only when you click here, the button is active and you can send your recommendation on the selected social network. Even when you only enable it, data will be transferred to third parties - see <em>i</em> (German).',
+          }
+        },
+        'cookie_domain' : 'benediktmeurer.de',
+        'settings_perma' : 'Agree to activate the social buttons permanently',
+        'css_path' : '/css/socialshareprivacy.css',
+        'txt_help' : 'When you activate these fields by clicking, information on Facebook, Twitter and Google are transferred to the United States and may also be stored there. To learn more, click on the <em>i</em> (German).',
+      });
+    }
+  });
+</script>
+
+
+  <!--[if IE]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <a class="fork" href="http://github.com//BMKit"><img src="http://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub" /></a>
+
+  <div id="container">
+    <!--
+    <div class="download">
+      <a href="http://github.com//BMKit/zipball/master"><img src="http://github.com/images/modules/download/zip.png" width="90" /></a>
+      <a href="http://github.com//BMKit/tarball/master"><img src="http://github.com/images/modules/download/tar.png" width="90" /></a>
+    </div>
+    -->
+
+    <h1><a href="http://github.com//BMKit">BMKit</a></h1>
+
+    <h2>About</h2>
+
+<p>BMKit is a collection of <a href="http://bmeurer.github.com/BMKit">well documented</a> Objective-C classes and categories for iOS (and Mac) development that make life easier by solving common problems in iOS (and Mac) development. Right now BMKit is a static library for iOS 4.0 and beyond.</p>
+
+<h2>Documentation</h2>
+
+<p>Documentation is done using <a href="http://github.com/tomaz/appledoc">AppleDoc</a>.</p>
+
+<p><a class="button" href="http://bmeurer.github.com/BMKit">Read the Documentation online</a></p>
+
+<h2>License</h2>
+
+<p>BMKit is licensed under the <a href="http://en.wikipedia.org/wiki/BSD_license">Simplified BSD License</a>.
+See the <a href="http://github.com/bmeurer/BMKit/raw/master/LICENSE">LICENSE</a> file for details.</p>
+
+<h2>Installation</h2>
+
+<p>Run the following command to add BMKit as a <a href="http://git-scm.org">Git</a> submodule to your project. Be sure you have are you in the root folder of your project.</p>
+
+<p><figure class="highlight"><pre><code class="language-console" data-lang="console">$ git submodule add git://github.com/bmeurer/BMKit.git Vendor/BMKit</code></pre></figure></p>
+
+<p>If you don't want to add BMKit as a submodule to your project or if your project is not managed using <a href="http://git-scm.org">Git</a>, then you can run the following commands to download the source code of the most recent revision.</p>
+
+<p><figure class="highlight"><pre><code class="language-console" data-lang="console">$ mkdir -p Vendor/BMKit
+$ curl -L http://github.com/bmeurer/BMKit/tarball/master | tar xz --strip 1 -C Vendor/BMKit</code></pre></figure></p>
+
+<h3>Adding to your Project</h3>
+
+<ul>
+<li>In Xcode, add the <code>BMKit.xcodeproj</code> to your project.</li>
+<li>In the <em>Build Phases</em> of a target, add <code>libBMKit.a</code> to the <em>Target Dependencies</em> and <em>Link Binary with Libraries</em>.</li>
+<li>In the build phases of a target, add the <code>ImageIO.framework</code>, <code>MobileCoreServices.framework</code> and <code>SystemConfiguration.framework</code> frameworks. to the <em>Link Binary with Libraries</em>.</li>
+<li>Choose the <em>Build Settings</em> tab. Make sure <em>All</em> is selected in the top left of the bar under the tabs.</li>
+<li>Add <code>Vendor/BMKit</code> to the <em>Header Search Path</em> (do not click the <em>Recursive</em> checkbox).</li>
+<li>Add <code>-all_load -ObjC</code> to <em>Other Linker Flags</em>.</li>
+</ul>
+
+
+<h3>Usage</h3>
+
+<p>To use BMKit, simply add the following line to your source file. I recommend adding this to your prefix to make things easy.</p>
+
+<p><figure class="highlight"><pre><code class="language-objc" data-lang="objc">#import &lt;BMKit/BMKit.h&gt;</code></pre></figure></p>
+
+<p>You can also import individual files instead of the whole framework by doing something like:</p>
+
+<p><figure class="highlight"><pre><code class="language-objc" data-lang="objc">#import &lt;BMKit/BMNetworkReachabilityController.h&gt;</code></pre></figure></p>
+
+      
+    <h2>Source code</h2>
+
+    <p>
+      Available on GitHub:
+      <a href="http://github.com//BMKit">http://github.com//BMKit</a>
+    </p>
+
+    <p>
+      Download it in either <a href="http://github.com//BMKit/zipball/master">zip</a>
+      or <a href="http://github.com//BMKit/tarball/master">tar</a> formats.
+    </p>
+
+    <p>
+      Clone the project with <a href="http://git-scm.com">Git</a> by running:
+    </p>
+
+    <div class="highlight">
+      <pre><code class="console"><span class="gp">$</span> git clone git://github.com//BMKit.git</code></pre>
+    </div>
+
+    <p>
+      <a class="button" href="github-mac://openRepo/https://github.com//BMKit"> Clone in Mac</a>
+    </p>
+
+    <h2>Bug Reports</h2>
+
+    <p>
+      If you come across any problems, please create a <a
+      href="http://github.com//BMKit/issues">ticket</a>
+      and we will try to get it fixed as soon as possible.
+    </p>
+
+    <p>
+      <a class="button" href="http://github.com//BMKit/issues/new">Report a Bug</a>
+    </p>
+
+    <h2>Contributing</h2>
+
+    <p>
+      Once you have made your commits:
+    </p>
+
+    <ol>
+      <li><a href="http://help.github.com/fork-a-repo/">Fork</a> BMKit.</li>
+      <li>Create a topic branch - <tt>git checkout -b my_branch</tt></li>
+      <li>Push to your topic branch - <tt>git push origin my_branch</tt></li>
+      <li>Create a <a href="http://help.github.com/pull-requests/">Pull Request</a> from your topic branch.</li>
+      <li>That's it!</li>
+    </ol>
+
+    <p>
+      <a class="button" href="http://github.com//BMKit/fork">Fork BMKit</a>
+    </p>
+
+    <h2>Copyright</h2>
+
+    <p>
+      Copyright &copy; 2004-2011 Benedikt Meurer. See the
+      <a href="http://github.com//BMKit/raw/master/LICENSE">LICENSE</a>
+      file for details.
+    </p>
+      
+    <div class="footer">
+      <p>
+        Copyright &copy; 2017 Benedikt Meurer
+        &nbsp;|&nbsp;
+        <a href="http://benediktmeurer.de">http://benediktmeurer.de</a>
+        &nbsp;|&nbsp;
+        <a href="http://www.twitter.com/">@</a>
+      </p>
+
+      <div id="socialshareprivacy"></div>
+    </div>
+  </div>
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24476004-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+
+</html>

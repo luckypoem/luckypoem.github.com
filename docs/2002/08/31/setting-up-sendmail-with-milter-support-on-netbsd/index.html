@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>
+    Benedikt Meurer &raquo; Setting up sendmail with Milter support on NetBSD
+  </title>
+  
+  <!-- Site Author -->
+  <meta name="author" content="Benedikt Meurer" />
+  
+  <!-- Site Description -->
+  <meta name="description" content="Personal website of Benedikt Meurer." />
+
+  <!-- Site Viewport -->
+  <meta name="viewport" content="user-scalable=no,width=device-width" />
+
+  <!-- Google Site Verification -->
+  <meta name="google-site-verification" content="1gkRIROhZsIi5eq-oNYG1R73thPYUmsb7IIQpDpBiB0" />
+
+  <!-- Atom RSS Feed -->
+  <link href="http://feeds.feedburner.com/benediktmeurer" rel="alternate" title="Benedikt Meurer" type="application/atom+xml" />
+
+  <!-- Blog CSS -->
+  <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Yanone+Kaffeesatz" media="projection, screen" rel="stylesheet" type="text/css" />
+  <link href="/css/reset.css" media="projection,screen" rel="stylesheet" type="text/css" /> 
+  <link href="/css/screen.css" media="projection,screen" rel="stylesheet" type="text/css" /> 
+  <link href="/css/custom.css" media="all" rel="stylesheet" type="text/css" />
+
+  <!-- Syntax Highlighting CSS -->
+  <link href="/css/syntax.css" rel="stylesheet" type="text/css" />
+
+  <!-- Fav Icon -->
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
+
+  <!-- jQuery -->
+  <script src="/js/jquery.min.js" type="text/javascript"></script>
+
+  <!-- socialshareprivacy jQuery Plugin -->
+  <!--
+  socialshareprivacy jQuery Plugin v1.2
+
+  URL: http://www.heise.de/extras/socialshareprivacy
+-->
+<script src="/js/jquery.socialshareprivacy.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+  jQuery(document).ready(function($){
+    if($('#socialshareprivacy').length > 0){
+      $('#socialshareprivacy').socialSharePrivacy({
+        services : {
+          facebook : {
+              'perma_option': 'off',
+              'status' : 'on',
+              'language' : 'en',
+              'dummy_img' : '/images/socialshareprivacy_facebook.png',
+              'txt_fb_off' : 'not connected to Facebook',
+              'txt_fb_on' : 'connected to Facebook',
+              'txt_info' : '2 clicks for better data protection: Only when you click here, the button is active and you can send your recommendation on the selected social network. Even when you only enable it, data will be transferred to third parties - see <em>i</em> (German).',
+          },
+          twitter : {
+              'perma_option': 'off',
+              'status' : 'on',
+              'language' : 'en',
+              'dummy_img' : '/images/socialshareprivacy_twitter.png',
+              'txt_twitter_off' : 'not connected to Twitter',
+              'txt_twitter_on' : 'connected to Twitter',
+              'txt_info' : '2 clicks for better data protection: Only when you click here, the button is active and you can send your recommendation on the selected social network. Even when you only enable it, data will be transferred to third parties - see <em>i</em> (German).',
+          },
+          gplus : {
+              'perma_option': 'off',
+              'status' : 'on',
+              'language' : 'en',
+              'dummy_img' : '/images/socialshareprivacy_gplus.png',
+              'txt_gplus_off' : 'not connected to Google+',
+              'txt_gplus_on' : 'connected to Google+',
+              'txt_info' : '2 clicks for better data protection: Only when you click here, the button is active and you can send your recommendation on the selected social network. Even when you only enable it, data will be transferred to third parties - see <em>i</em> (German).',
+          }
+        },
+        'cookie_domain' : 'benediktmeurer.de',
+        'settings_perma' : 'Agree to activate the social buttons permanently',
+        'css_path' : '/css/socialshareprivacy.css',
+        'txt_help' : 'When you activate these fields by clicking, information on Facebook, Twitter and Google are transferred to the United States and may also be stored there. To learn more, click on the <em>i</em> (German).',
+      });
+    }
+  });
+</script>
+
+
+  <!--[if lt IE 8]>
+    <link type="text/css" rel="stylesheet" media="projection,screen" href="/css/ie.css" />
+  <![endif]--> 
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="container">
+    <header class="span-21 last" id="header">
+      <h1><a href="/" rel="home bookmark">Benedikt Meurer</a></h1>
+    </header>
+
+    <div class="span-16" id="content">
+      <article class="post">
+  <h3><a href="/2002/08/31/setting-up-sendmail-with-milter-support-on-netbsd/" rel="bookmark permalink" title="Permanent link to this post">Setting up sendmail with Milter support on NetBSD</a></h3>
+
+  <p> 
+  <i> 
+    Note that if you are using NetBSD 1.6T or better, the
+    system sendmail already supports the Milter library. And pkgsrc
+    supports sendmail installation (for 8.12.x, 8.12.9 at this
+    moment) linked with Milter library. See mail/libmilter and
+    mail/sendmail (use <code>make USE_MILTER=yes</code> command to
+    build the last one).
+  </i> 
+
+  <br /> 
+  
+  <small>(Thanks to Mishka for pointing this out)</small> 
+</p> 
+
+<p> 
+  This is a posting from <a href="mailto:mishka@batraq.anything3d.com">Mishka</a>
+  to comp.unix.bsd.netbsd.misc on getting sendmail to work with libmilter using the <a
+  href="ftp://ftp.netbsd.org/pub/NetBSD/NetBSD-current/pkgsrc/devel/pth/README.html">devel/pth</a> 
+  package:
+</p> 
+
+<pre> 
+From: Mishka &lt;mishka@batraq.anything3d.com&gt;
+Newsgroups: comp.unix.bsd.netbsd.misc
+Subject: NetBSD + Milter = friendship :)
+Date: Fri, 30 Aug 2002 18:12:49 +0300
+Organization: PACOnet ISP
+Message-ID: &lt;3D6F8B71.4050807@batraq.anything3d.com&gt;
+X-Complaints-To: abuse@paco.net
+NNTP-Posting-Date: Fri, 30 Aug 2002 15:13:42 +0000 (UTC)
+User-Agent: Mozilla/5.0 (X11; U; NetBSD i386; en-US; rv:1.0.0) Gecko/20020816
+X-Accept-Language: en-us, ru
+X-NNTP-Posting-Host: batraq.anything3d.com
+ 
+Hello!
+ 
+I found that built-in sendmail (8.11.6 for NetBSD 1.6E) compiled without
+Milter support. Next, in pkgsrc collection sendmail have the same version,
+and have not Milter support also. It seems to be due to absence of POSIX
+threads in system.
+ 
+Anobody knows rightest way to enable Milter functionality in Sendmail?
+It would be great if we can solve this problem without install other
+version of sendmail, but use built-in one.
+ 
+Having installed pth-1.4.1 before, I tried the following:
+ 
+1) Add the following files and dir to /usr/src/gnu/usr.sbin/sendmail:
+  libmilter/
+  libmilter/Makefile
+  libmilter/Makefile.milter
+ 
+    With following contents:
+  ---- libmilter/Makefile.milter BEGIN ----
+  # $NetBSD$
+ 
+  .if _FFR_MILTER
+  PTH_CFLAGS!=    pth-config --cflags
+  PTH_LDFLAGS!=   pth-config --ldflags
+  PTH_LIBS!=      pth-config --libs
+ 
+  CPPFLAGS+=      -D_FFR_MILTER
+  CPPFLAGS+=      ${PTH_CFLAGS}
+  LDADD+=         ${PTH_LDFLAGS} ${PTH_LIBS}
+  .endif
+  ---- libmilter/Makefile.milter END ----
+ 
+  ---- libmilter/Makefile BEGIN (derived from libsmutil/Makefile) ----
+  #       $NetBSD: Makefile,v 1.4 2001/12/12 12:24:21 lukem Exp $
+ 
+  NOSHARE=        # defined
+  NOPIC=          # defined
+  NOPROFILE=      # defined
+ 
+  .include &lt;bsd.own.mk&gt;
+  .include "Makefile.milter"
+ 
+  DIST=           ${.CURDIR}/../../../dist
+  .PATH: ${DIST}/sendmail/libmilter
+ 
+  LIB=            milter
+ 
+  CPPFLAGS+=      -DNOT_SENDMAIL
+ 
+  SRCS=           comm.c engine.c handler.c listener.c
+  SRCS+=          main.c signal.c sm_gethost.c smfi.c
+ 
+  libinstall::
+ 
+  .include &lt;bsd.lib.mk&gt;
+  ---- libmilter/Makefile BEGIN ----
+ 
+    And have added the following line to Makefile:
+ 
+  .include "libmilter/Makefile.milter"
+ 
+2) Next, having installed libmilter/Makefile.milter I do:
+ 
+  # pwd
+  /usr/src/gnu/usr.sbin/sendmail
+  # make clean
+  ...
+  # make -f Makefile -D_FFR_MILTER
+  ...
+  . at this stage i seen that libsmutil and other is compiled
+  . with _FFR_MILTER flags and linked with -lpth
+  ...
+  # make install
+  ...
+  # ldd /usr/libexec/sendmail/sendmail
+  /usr/libexec/sendmail/sendmail:
+           -lwrap.0 =&gt; /usr/lib/libwrap.so.0
+           -lutil.6 =&gt; /usr/lib/libutil.so.6
+           -lssl.2 =&gt; /usr/lib/libssl.so.2
+           -lcrypto.1 =&gt; /usr/lib/libcrypto.so.1
+           -lpth.14 =&gt; /usr/pkg/lib/libpth.so.14     &lt;--- look here
+           -lc.12 =&gt; /usr/lib/libc.so.12
+  # cd libmilter &amp;&amp; make -D_FFR_MILTER
+  ...
+  # cp libmilter.a /usr/lib
+  # ns -s /usr/lib/libmilter.asmfi_getpriv in smfi.o
+  smfi_addrcpt in smfi.o
+  smfi_addheader in smfi.o
+  smfi_getsymval in smfi.o
+  ... and so on ...
+ 
+3) After two ones below, I have sucessfully compiled sample mail filter
+    which uses libmilter library.
+ 
+4) After all, I have added following lines to /etc/mail/sendmail.rc:
+ 
+  O InputMailFilters=drweb-filter
+  Xdrweb-filter,  S=inet:3001@localhost,  T=S:10m;R:10m;E:1h
+ 
+    And errors for this moment wasn't detected :)
+ 
+But i have ask you once more: is there exists more easiest way to do this,
+and anybody know what we will do if some package uses Milter functionality?
+(maybe syspkg ;)
+ 
+Thanks in advance.
+ 
+--
+Mishka.
+</pre> 
+
+
+
+  <div id="socialshareprivacy"></div>
+
+  <div class="meta">
+    <div class="published">
+      Published: 2002-08-31
+    </div>
+    <div class="permalink">
+      <a class="permalink" href="http://benediktmeurer.de/2002/08/31/setting-up-sendmail-with-milter-support-on-netbsd/" rel="bookmark permalink" title="Permalink for Setting up sendmail with Milter support on NetBSD">Permalink</a>
+    </div>
+</article>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'benediktmeurer';
+  var disqus_url = 'http://benediktmeurer.de/2002/08/31/setting-up-sendmail-with-milter-support-on-netbsd/';
+  (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+    </div>
+
+    <div class="span-5 last" id="sidebar">
+  <div class="sidebarbox">
+    <h4>Pages</h4>
+    <ul id="pages">
+      <li><a rel="bookmark" title="Home" href="/">Home</a></li>
+      <li><a rel="bookmark" title="Archive" href="/archive">Archive</a></li>
+      <li><a rel="bookmark" title="Projects" href="/projects">Projects</a></li>
+      <li><a rel="bookmark" title="publications" href="/publications">Publications</a></li>
+      <li><a rel="bookmark" title="About" href="/about">About</a></li>
+    </ul>
+  </div>
+
+  <div class="sidebarbox">
+    <h4>Subscribe</h4>
+    <ul>
+      <li><a title="RSS Feed" href="http://feeds.feedburner.com/benediktmeurer" class="icon-link" id="feed-link">RSS</a></li>
+    </ul>
+  </div>
+
+  <div class="sidebarbox">
+    <h4>Me Elsewhere</h4>
+    <ul>
+      <li><a rel="bookmark" title="GitHub" href="https://github.com/" class="icon-link" id="github-link">GitHub</a></li>
+      <li><a rel="bookmark" title="Twitter" href="http://twitter.com/" class="icon-link" id="twitter-link">Twitter</a></li>
+      <li><a rel="bookmark" title="Facebook" href="https://facebook.com/benedikt.meurer" class="icon-link" id="facebook-link">Facebook</a></li>
+	    <li><a rel="bookmark" title="LinkedIn" href="http://linkedin.com/in/benediktmeurer" class="icon-link" id="linkedin-link">LinkedIn</a></li>
+	    <li><a rel="bookmark" title="ohloh" href="http://www.ohloh.net/accounts/bmeurer" class="icon-link" id="ohloh-link">ohloh</a></li>
+    </ul>
+  </div>
+
+  <div class="sidebarbox">
+    <h4>Contact Me</h4>
+    <ul>
+      <li><a rel="bookmark" title="Email" href="" class="icon-link" id="gmail-link">Gmail</a></li>
+    </ul>
+  </div>
+</div>
+
+
+    <footer class="span-21 last" id="footer">
+  <p>
+    All content copyright &copy; <a href="/about">Benedikt Meurer</a>.
+    Written in mostly valid <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fbenediktmeurer.de%2F" title="Valid HTML5" rel="external" target="_blank">HTML5</a> and <a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fbenediktmeurer.de&amp;profile=css3&amp;usermedium=all&amp;warning=1" title="Valid CSS3" rel="external" target="_blank">CSS3</a>.
+  </p>
+  <p>
+    Powered by <a href="http://github.com/mojombo/jekyll" title="The Jekyll (static site generator) code repository"
+    rel="external" target="_blank">Jekyll</a>.
+  </p>
+</footer>
+
+
+  </div>
+  <script type="text/javascript">
+  //<![CDATA[
+  (function() {
+    var links = document.getElementsByTagName('a');
+    var query = '?';
+    for(var i = 0; i < links.length; i++) {
+      if(links[i].href.indexOf('#disqus_thread') >= 0) {
+        query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+      }
+    }
+    document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/benediktmeurer/get_num_replies.js' + query + '"></' + 'script>');
+  })();
+  //]]>
+</script>
+
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24476004-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+
+</html>
